@@ -46,7 +46,7 @@ export const Box = () => {
     setValues({ ...values, message: e.currentTarget.value });
   };
 
-  const handleClick = (e: React.MouseEvent<HTMLButtonElement>) => {
+  const handleClick = () => {
     if (validateInput(values) == true) {
       setDisable(true);
       setTimer(10);
@@ -77,7 +77,7 @@ export const Box = () => {
 
   const sendMessage = async () => {
     try {
-      const response = await fetch("http://localhost:5000/api/messages", {
+      const response = await fetch("/api/messages", {
         method: "POST",
         headers: { "Content-Type": "application/Json" },
         body: JSON.stringify({
@@ -107,7 +107,7 @@ export const Box = () => {
 
     if (!values.name.trim()) newErrors.name = true;
     if (!values.message.trim()) newErrors.message = true;
-
+    console.log(errors)
     setErrors(newErrors);
 
 
