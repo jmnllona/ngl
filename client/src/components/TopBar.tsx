@@ -5,13 +5,14 @@ import "./customStyle.css"
 
 const ArtistName: Record<string, string> = {
   "../oohaah.mp3": "twice",
-  "../icecream.wav": "blackpink"
+  "../icecream.wav": "blackpink",
+  "../hooligan.mp3": "bts"
 }
 
 
 export const TopBar = () => {
-  const [selectedmusic, setSelectedMusic] = useState<string>("../bg1.mp3");
-  const [answered, setAnswered] = useState<Record<string, boolean>>({ "../bg1.mp3": true, "../oohaah.mp3": false, "../icecream.wav": false });
+  const [selectedmusic, setSelectedMusic] = useState<string>("../SPECIALZ.mp3");
+  const [answered, setAnswered] = useState<Record<string, boolean>>({ "../SPECIALZ.mp3": true, "../oohaah.mp3": false, "../icecream.wav": false, "../hooligan.mp3": false });
   const [popup, setPopup] = useState<Record<string, boolean>>({ question: false, help: false });
   const [answer, setAnswer] = useState<string>("");
   const [song, setSong] = useState<string>("");
@@ -60,8 +61,8 @@ export const TopBar = () => {
       <div className="flex items-center ml-auto">
         <MusicButton musicname={selectedmusic} className='w-[50px] h-8 justify-center ml-auto '></MusicButton>
         <select value={selectValue} onChange={handleChange} className="font-mono outline-none rounded-full px-2 h-6 bg-slate-900 text-gray-400 text-xs">
-          <option value="../bg1.mp3">bg1</option>
-
+          <option value="../SPECIALZ.mp3">bg1</option>
+          <option value="../hooligan.mp3">hooligan by jb</option>
           <option value="../oohaah.mp3">Like ooh aah</option>
           <option value="../icecream.wav">ice cream</option>
 
@@ -90,7 +91,7 @@ export const TopBar = () => {
             <p>Music belongs to its rightful owner. This is for listening only.</p>
             <br></br>
             <p>check nyo guys kung may bug o error, try no na din HIHI.</p>
-            <p> reply below.</p>
+            <p>reply below.</p>
             <br></br>
             <p>State your fullname and block</p>
             <p>e.g., </p>

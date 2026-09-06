@@ -20,6 +20,7 @@ export function Card({ name, question, reply, }: CardProps) {
 
         <p className="text-sm text-orange-950/50 mb-2">name: {name}</p>
         <p className="border-b pb-5 mb-5">{question}</p>
+        <p className="text-sm text-orange-950/50 mb-2">reply:</p>
         <p>{reply}</p>
 
 
