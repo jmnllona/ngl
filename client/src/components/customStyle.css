@@ -1,0 +1,79 @@
+.header {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAHAZU4e2dM0vx4ccK7CtMwcGIspAqKXiZ1dzXVJJy_jo4QgatEz7Gwdc&s=10);
+  /* background-position: center 25%;  */
+  background-size: cover; 
+}
+
+.error{
+  border:solid 1px rgb(255, 0, 0)
+}
+/* Placeholder Animation */
+
+.fade-in {
+  animation: fadeIn 0.8s forwards;
+}
+
+.fade-out {
+  animation: fadeOut 0.8s forwards;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+@keyframes fadeOut {
+  from { opacity: 1; }
+  to   { opacity: 0; }
+}
+
+
+/* Music Animation ------------ */
+
+.musicPlay div{
+   
+ width: 2px;
+ border-radius: 2px;
+
+background-color: rgb(43, 37, 56);
+
+
+}
+.musicPlay div:nth-child(1) {
+  animation: barMusic 1s ease infinite;
+  animation-delay: 0s;
+}
+.musicPlay div:nth-child(2) {
+  animation: barMusic 1s ease infinite;
+  animation-delay: 0.25s;
+}
+.musicPlay div:nth-child(3) {
+  animation: barMusic 1s ease infinite;
+  animation-delay: 0.50s;
+}
+.musicPlay div:nth-child(4) {
+  animation: barMusic 1s ease infinite;
+  animation-delay: 0.75s;
+}
+.musicPlay div:nth-child(5) {
+  animation: barMusic 1s ease infinite;
+  animation-delay: 1s;
+}
+.musicPlay div:nth-child(6) {
+  animation: barMusic 1s ease infinite;
+  animation-delay: 1.25s;
+}
+
+
+
+@keyframes barMusic{
+0%{height: 1px;}
+
+50%{height: 15px;}
+
+100%{height: 1px;}
+
+}
+
+
+/* ------------------ */
