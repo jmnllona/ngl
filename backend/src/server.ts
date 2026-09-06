@@ -21,9 +21,12 @@ pool.query("SELECT NOW()")
 
 // Allow requests from your frontend
 app.use(cors({
-  origin: "http://localhost:5173", // frontend URL
-  methods: ["GET", "POST"],        // allowed methods
-  credentials: true                // if you use cookies/auth
+  origin: [
+    "http://localhost:5173",
+    "https://ngl-1-e7mp.onrender.com"
+  ],
+  methods: ["GET", "POST"],
+  credentials: true
 }));
 
 app.use(express.static(path.join(__dirname, '../dist')));
