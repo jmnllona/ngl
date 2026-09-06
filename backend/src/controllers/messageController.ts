@@ -1,5 +1,5 @@
 import type { Request, Response } from "express";
-import db from "../db.ts"
+import db from "../db.js"
 
 const createMessage = async (req: Request, res: Response) => {
   const { name, message } = req.body;
@@ -30,7 +30,7 @@ const createMessage = async (req: Request, res: Response) => {
 };
 
 
-const getPublicMessages = async (req: Request, res: Response) => {
+const getPublicMessages = async (_req: Request, res: Response) => {
   try {
     const result = await db.query(`
       SELECT
@@ -51,7 +51,7 @@ const getPublicMessages = async (req: Request, res: Response) => {
       });
     }
 
-    res.json({
+    return res.json({
       success: true,
       message: "Messages fetched!",
       data: result.rows,
@@ -60,7 +60,7 @@ const getPublicMessages = async (req: Request, res: Response) => {
   } catch (err) {
     console.error(err);
 
-    res.status(500).json({
+    return res.status(500).json({
       success: false,
       message: "There is an error somewhere... Internal Server Error",
     });
@@ -69,15 +69,15 @@ const getPublicMessages = async (req: Request, res: Response) => {
 
 
 
-const getAllMessages = async (req: Request, res: Response) => {
+const getAllMessages = async (_req: Request, res: Response) => {
   try {
     const result = await db.query(`
       SELECT
         m.id,
         m.name,
-        m.message,
+        m.message
       FROM messages AS m
-      ORDER BY r.id DESC
+      ORDER BY m.id DESC
     `);
 
     if (result.rows.length === 0) {
@@ -87,7 +87,7 @@ const getAllMessages = async (req: Request, res: Response) => {
       });
     }
 
-    res.json({
+    return res.json({
       success: true,
       message: "Messages fetched!",
       data: result.rows,
@@ -96,7 +96,7 @@ const getAllMessages = async (req: Request, res: Response) => {
   } catch (err) {
     console.error(err);
 
-    res.status(500).json({
+    return res.status(500).json({
       success: false,
       message: "There is an error somewhere... Internal Server Error",
     });
