@@ -13,6 +13,12 @@ const __dirname = path.dirname(__filename);
 const app = express();
 app.use(express.json());
 
+import pool from "./db.js";
+
+pool.query("SELECT NOW()")
+  .then(() => console.log("✅ Database connected!"))
+  .catch((err) => console.error("❌ Database connection failed:", err));
+
 // Allow requests from your frontend
 app.use(cors({
   origin: "http://localhost:5173", // frontend URL
