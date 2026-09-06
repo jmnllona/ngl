@@ -36,7 +36,7 @@ export function ReplySection() {
   async function getData() {
 
     try {
-      const response = await fetch("/api/public-messages");
+      const response = await fetch(`${import.meta.env.VITE_API_URL}/api/public-messages`);
 
       const data = await response.json();
       console.log(data.success, data.message);
