@@ -56,6 +56,7 @@ export function ReplySection() {
 
   return (
     <section className="max-w-lg w-full px-5 py-16 mx-auto">
+      <p className="ml-5 text-gray-600 mb-2">{data.length}</p>
       {data.length == 0
         ? <p className=" font-semibold text-sm text-center">he hasn't replied to any question yet </p>
         : (<div>
