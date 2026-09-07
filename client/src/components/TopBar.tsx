@@ -23,7 +23,7 @@ export const TopBar = () => {
   useEffect(() => {
     const recordVisit = async () => {
       try {
-        await fetch("/api/visitors/visit", {
+        await fetch(`${import.meta.env.VITE_API_URL}/api/visitors/visit`, {
           method: "POST"
         });
       } catch (error) {
