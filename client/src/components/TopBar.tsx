@@ -1,4 +1,4 @@
-import { useState, type ChangeEvent, } from "react";
+import { useState, type ChangeEvent, useEffect } from "react";
 import { MusicButton } from "./Buttons"
 import "./customStyle.css"
 
@@ -17,6 +17,16 @@ export const TopBar = () => {
   const [answer, setAnswer] = useState<string>("");
   const [song, setSong] = useState<string>("");
   const [selectValue, setSelectValue] = useState("")
+
+
+
+  useEffect(() => {
+    fetch("/api/visit", {
+      method: "POST"
+    });
+
+  }, [])
+
 
 
 
