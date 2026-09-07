@@ -13,10 +13,11 @@ const ArtistName: Record<string, string> = {
 export const TopBar = () => {
   const [selectedmusic, setSelectedMusic] = useState<string>("../SPECIALZ.mp3");
   const [answered, setAnswered] = useState<Record<string, boolean>>({ "../SPECIALZ.mp3": true, "../oohaah.mp3": false, "../icecream.wav": false, "../hooligan.mp3": false });
-  const [popup, setPopup] = useState<Record<string, boolean>>({ question: false, help: false });
+  const [popup, setPopup] = useState<Record<string, boolean>>({ question: false, help: true });
   const [answer, setAnswer] = useState<string>("");
   const [song, setSong] = useState<string>("");
   const [selectValue, setSelectValue] = useState("")
+
 
 
   function handleChange(e: ChangeEvent<HTMLSelectElement>) {
@@ -62,7 +63,7 @@ export const TopBar = () => {
         <MusicButton musicname={selectedmusic} className='w-[50px] h-8 justify-center ml-auto '></MusicButton>
         <select value={selectValue} onChange={handleChange} className="font-mono outline-none rounded-full px-2 h-6 bg-slate-900 text-gray-400 text-xs">
           <option value="../SPECIALZ.mp3">bg1</option>
-          <option value="../hooligan.mp3">hooligan by jb</option>
+          <option value="../hooligan.mp3">hooligan</option>
           <option value="../oohaah.mp3">Like ooh aah</option>
           <option value="../icecream.wav">ice cream</option>
 
