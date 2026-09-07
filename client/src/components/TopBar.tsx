@@ -21,13 +21,18 @@ export const TopBar = () => {
 
 
   useEffect(() => {
-    fetch("/api/visit", {
-      method: "POST"
-    });
+    const recordVisit = async () => {
+      try {
+        await fetch("/api/visitors/visit", {
+          method: "POST"
+        });
+      } catch (error) {
+        console.error("Visitor tracking error:", error);
+      }
+    };
 
-  }, [])
-
-
+    recordVisit();
+  }, []);
 
 
   function handleChange(e: ChangeEvent<HTMLSelectElement>) {
