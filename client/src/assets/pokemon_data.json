@@ -1,0 +1,3678 @@
+[
+  {
+    "id": 1,
+    "name": "Bulbasaur",
+    "types": [
+      "Grass",
+      "Poison"
+    ],
+    "height": 0.7,
+    "weight": 6.9,
+    "stats": {
+      "hp": 45,
+      "attack": 49,
+      "defense": 49,
+      "specialAttack": 65,
+      "specialDefense": 65,
+      "speed": 45
+    },
+    "description": "A strange seed was planted on its back at birth.",
+    "evolvesTo": [
+      2
+    ],
+    "evolvesFrom": null,
+    "image": "../pokemon/001.png",
+    "scale": 0.87
+  },
+  {
+    "id": 2,
+    "name": "Ivysaur",
+    "types": [
+      "Grass",
+      "Poison"
+    ],
+    "height": 1.0,
+    "weight": 13.0,
+    "stats": {
+      "hp": 60,
+      "attack": 62,
+      "defense": 63,
+      "specialAttack": 80,
+      "specialDefense": 80,
+      "speed": 60
+    },
+    "description": "When the bulb on its back grows large, it appears to lose the ability to stand on its hind legs.",
+    "evolvesTo": [
+      3
+    ],
+    "evolvesFrom": [
+      1
+    ],
+    "image": "../pokemon/002.png",
+    "scale": 0.9
+  },
+  {
+    "id": 3,
+    "name": "Venusaur",
+    "types": [
+      "Grass",
+      "Poison"
+    ],
+    "height": 2.0,
+    "weight": 100.0,
+    "stats": {
+      "hp": 80,
+      "attack": 82,
+      "defense": 83,
+      "specialAttack": 100,
+      "specialDefense": 100,
+      "speed": 80
+    },
+    "description": "Its plant blooms when it is absorbing solar energy.",
+    "evolvesTo": null,
+    "evolvesFrom": [
+      2
+    ],
+    "image": "../pokemon/003.png",
+    "scale": 0.97
+  },
+  {
+    "id": 4,
+    "name": "Charmander",
+    "types": [
+      "Fire"
+    ],
+    "height": 0.6,
+    "weight": 8.5,
+    "stats": {
+      "hp": 39,
+      "attack": 52,
+      "defense": 43,
+      "specialAttack": 60,
+      "specialDefense": 50,
+      "speed": 65
+    },
+    "description": "The flame on its tail shows the strength of its life force.",
+    "evolvesTo": [
+      5
+    ],
+    "evolvesFrom": null,
+    "image": "../pokemon/004.png",
+    "scale": 0.86
+  },
+  {
+    "id": 5,
+    "name": "Charmeleon",
+    "types": [
+      "Fire"
+    ],
+    "height": 1.1,
+    "weight": 19.0,
+    "stats": {
+      "hp": 58,
+      "attack": 64,
+      "defense": 58,
+      "specialAttack": 80,
+      "specialDefense": 65,
+      "speed": 80
+    },
+    "description": "When it swings its burning tail, the temperature around it rises.",
+    "evolvesTo": [
+      6
+    ],
+    "evolvesFrom": [
+      4
+    ],
+    "image": "../pokemon/005.png",
+    "scale": 0.91
+  },
+  {
+    "id": 6,
+    "name": "Charizard",
+    "types": [
+      "Fire",
+      "Flying"
+    ],
+    "height": 1.7,
+    "weight": 90.5,
+    "stats": {
+      "hp": 78,
+      "attack": 84,
+      "defense": 78,
+      "specialAttack": 109,
+      "specialDefense": 85,
+      "speed": 100
+    },
+    "description": "Its wings can carry it close to an altitude of 4,600 feet.",
+    "evolvesTo": null,
+    "evolvesFrom": [
+      5
+    ],
+    "image": "../pokemon/006.png",
+    "scale": 0.95
+  },
+  {
+    "id": 7,
+    "name": "Squirtle",
+    "types": [
+      "Water"
+    ],
+    "height": 0.5,
+    "weight": 9.0,
+    "stats": {
+      "hp": 44,
+      "attack": 48,
+      "defense": 65,
+      "specialAttack": 50,
+      "specialDefense": 64,
+      "speed": 43
+    },
+    "description": "It withdraws into its shell when it feels threatened.",
+    "evolvesTo": [
+      8
+    ],
+    "evolvesFrom": null,
+    "image": "../pokemon/007.png",
+    "scale": 0.85
+  },
+  {
+    "id": 8,
+    "name": "Wartortle",
+    "types": [
+      "Water"
+    ],
+    "height": 1.0,
+    "weight": 22.5,
+    "stats": {
+      "hp": 59,
+      "attack": 63,
+      "defense": 80,
+      "specialAttack": 65,
+      "specialDefense": 80,
+      "speed": 58
+    },
+    "description": "Its furry tail stores air for swimming underwater.",
+    "evolvesTo": [
+      9
+    ],
+    "evolvesFrom": [
+      7
+    ],
+    "image": "../pokemon/008.png",
+    "scale": 0.9
+  },
+  {
+    "id": 9,
+    "name": "Blastoise",
+    "types": [
+      "Water"
+    ],
+    "height": 1.6,
+    "weight": 85.5,
+    "stats": {
+      "hp": 79,
+      "attack": 83,
+      "defense": 100,
+      "specialAttack": 85,
+      "specialDefense": 105,
+      "speed": 78
+    },
+    "description": "The water jets on its shell can accurately shoot targets from a great distance.",
+    "evolvesTo": null,
+    "evolvesFrom": [
+      8
+    ],
+    "image": "../pokemon/009.png",
+    "scale": 0.95
+  },
+  {
+    "id": 10,
+    "name": "Caterpie",
+    "types": [
+      "Bug"
+    ],
+    "height": 0.3,
+    "weight": 2.9,
+    "stats": {
+      "hp": 45,
+      "attack": 30,
+      "defense": 35,
+      "specialAttack": 20,
+      "specialDefense": 20,
+      "speed": 45
+    },
+    "description": "Its short feet have suction pads that enable it to climb slopes and walls.",
+    "evolvesTo": [
+      11
+    ],
+    "evolvesFrom": null,
+    "image": "../pokemon/010.png",
+    "scale": 0.82
+  },
+  {
+    "id": 11,
+    "name": "Metapod",
+    "types": [
+      "Bug"
+    ],
+    "height": 0.7,
+    "weight": 9.9,
+    "stats": {
+      "hp": 50,
+      "attack": 20,
+      "defense": 55,
+      "specialAttack": 25,
+      "specialDefense": 25,
+      "speed": 30
+    },
+    "description": "Its shell is soft immediately after it molts, but it soon hardens.",
+    "evolvesTo": [
+      12
+    ],
+    "evolvesFrom": [
+      10
+    ],
+    "image": "../pokemon/011.png",
+    "scale": 0.87
+  },
+  {
+    "id": 12,
+    "name": "Butterfree",
+    "types": [
+      "Bug",
+      "Flying"
+    ],
+    "height": 1.1,
+    "weight": 32.0,
+    "stats": {
+      "hp": 60,
+      "attack": 45,
+      "defense": 50,
+      "specialAttack": 90,
+      "specialDefense": 80,
+      "speed": 70
+    },
+    "description": "It loves to gather honey from flowers and carries it back to its nest.",
+    "evolvesTo": null,
+    "evolvesFrom": [
+      11
+    ],
+    "image": "../pokemon/012.png",
+    "scale": 0.91
+  },
+  {
+    "id": 13,
+    "name": "Weedle",
+    "types": [
+      "Bug",
+      "Poison"
+    ],
+    "height": 0.3,
+    "weight": 3.2,
+    "stats": {
+      "hp": 40,
+      "attack": 35,
+      "defense": 30,
+      "specialAttack": 20,
+      "specialDefense": 20,
+      "speed": 50
+    },
+    "description": "Its poison stinger is very dangerous. It uses its sharp horn to protect itself.",
+    "evolvesTo": [
+      14
+    ],
+    "evolvesFrom": null,
+    "image": "../pokemon/013.png",
+    "scale": 0.82
+  },
+  {
+    "id": 14,
+    "name": "Kakuna",
+    "types": [
+      "Bug",
+      "Poison"
+    ],
+    "height": 0.6,
+    "weight": 10.0,
+    "stats": {
+      "hp": 45,
+      "attack": 25,
+      "defense": 50,
+      "specialAttack": 25,
+      "specialDefense": 25,
+      "speed": 35
+    },
+    "description": "While waiting for evolution, it hides from predators by attaching itself to trees.",
+    "evolvesTo": [
+      15
+    ],
+    "evolvesFrom": [
+      13
+    ],
+    "image": "../pokemon/014.png",
+    "scale": 0.86
+  },
+  {
+    "id": 15,
+    "name": "Beedrill",
+    "types": [
+      "Bug",
+      "Poison"
+    ],
+    "height": 1.0,
+    "weight": 29.5,
+    "stats": {
+      "hp": 65,
+      "attack": 90,
+      "defense": 40,
+      "specialAttack": 45,
+      "specialDefense": 80,
+      "speed": 75
+    },
+    "description": "It has three poisonous stingers on its body and attacks with great speed.",
+    "evolvesTo": null,
+    "evolvesFrom": [
+      14
+    ],
+    "image": "../pokemon/015.png",
+    "scale": 0.9
+  },
+  {
+    "id": 16,
+    "name": "Pidgey",
+    "types": [
+      "Normal",
+      "Flying"
+    ],
+    "height": 0.3,
+    "weight": 1.8,
+    "stats": {
+      "hp": 40,
+      "attack": 45,
+      "defense": 40,
+      "specialAttack": 35,
+      "specialDefense": 35,
+      "speed": 56
+    },
+    "description": "It is docile and prefers to avoid conflict, but it can become fierce when threatened.",
+    "evolvesTo": [
+      17
+    ],
+    "evolvesFrom": null,
+    "image": "../pokemon/016.png",
+    "scale": 0.82
+  },
+  {
+    "id": 17,
+    "name": "Pidgeotto",
+    "types": [
+      "Normal",
+      "Flying"
+    ],
+    "height": 1.1,
+    "weight": 30.0,
+    "stats": {
+      "hp": 63,
+      "attack": 60,
+      "defense": 55,
+      "specialAttack": 50,
+      "specialDefense": 50,
+      "speed": 71
+    },
+    "description": "It has outstanding vision and can spot prey from great distances.",
+    "evolvesTo": [
+      18
+    ],
+    "evolvesFrom": [
+      16
+    ],
+    "image": "../pokemon/017.png",
+    "scale": 0.91
+  },
+  {
+    "id": 18,
+    "name": "Pidgeot",
+    "types": [
+      "Normal",
+      "Flying"
+    ],
+    "height": 1.5,
+    "weight": 39.5,
+    "stats": {
+      "hp": 83,
+      "attack": 80,
+      "defense": 75,
+      "specialAttack": 70,
+      "specialDefense": 70,
+      "speed": 101
+    },
+    "description": "Its powerful wings allow it to fly at great speeds and create strong gusts of wind.",
+    "evolvesTo": null,
+    "evolvesFrom": [
+      17
+    ],
+    "image": "../pokemon/018.png",
+    "scale": 0.94
+  },
+  {
+    "id": 19,
+    "name": "Rattata",
+    "types": [
+      "Normal"
+    ],
+    "height": 0.3,
+    "weight": 3.5,
+    "stats": {
+      "hp": 30,
+      "attack": 56,
+      "defense": 35,
+      "specialAttack": 25,
+      "specialDefense": 35,
+      "speed": 72
+    },
+    "description": "Its incisors grow continuously, so it gnaws on hard objects to keep them sharp.",
+    "evolvesTo": [
+      20
+    ],
+    "evolvesFrom": null,
+    "image": "../pokemon/019.png",
+    "scale": 0.82
+  },
+  {
+    "id": 20,
+    "name": "Raticate",
+    "types": [
+      "Normal"
+    ],
+    "height": 0.7,
+    "weight": 18.5,
+    "stats": {
+      "hp": 55,
+      "attack": 81,
+      "defense": 60,
+      "specialAttack": 50,
+      "specialDefense": 70,
+      "speed": 97
+    },
+    "description": "Its sharp fangs can cut through nearly anything, and its whiskers help it keep its balance.",
+    "evolvesTo": null,
+    "evolvesFrom": [
+      19
+    ],
+    "image": "../pokemon/020.png",
+    "scale": 0.87
+  },
+  {
+    "id": 21,
+    "name": "Spearow",
+    "types": [
+      "Normal",
+      "Flying"
+    ],
+    "height": 0.3,
+    "weight": 2.0,
+    "stats": {
+      "hp": 40,
+      "attack": 60,
+      "defense": 30,
+      "specialAttack": 31,
+      "specialDefense": 31,
+      "speed": 70
+    },
+    "description": "It has a high-pitched cry and can be seen flying rapidly over grasslands.",
+    "evolvesTo": [
+      22
+    ],
+    "evolvesFrom": null,
+    "image": "../pokemon/021.png",
+    "scale": 0.82
+  },
+  {
+    "id": 22,
+    "name": "Fearow",
+    "types": [
+      "Normal",
+      "Flying"
+    ],
+    "height": 1.2,
+    "weight": 38.0,
+    "stats": {
+      "hp": 65,
+      "attack": 90,
+      "defense": 65,
+      "specialAttack": 61,
+      "specialDefense": 61,
+      "speed": 100
+    },
+    "description": "It has been around for many years and is recognized by its long beak and wings.",
+    "evolvesTo": null,
+    "evolvesFrom": [
+      21
+    ],
+    "image": "../pokemon/022.png",
+    "scale": 0.92
+  },
+  {
+    "id": 23,
+    "name": "Ekans",
+    "types": [
+      "Poison"
+    ],
+    "height": 2.0,
+    "weight": 6.9,
+    "stats": {
+      "hp": 35,
+      "attack": 60,
+      "defense": 44,
+      "specialAttack": 40,
+      "specialDefense": 54,
+      "speed": 55
+    },
+    "description": "The older it gets, the longer it grows. It can swallow prey whole.",
+    "evolvesTo": [
+      24
+    ],
+    "evolvesFrom": null,
+    "image": "../pokemon/023.png",
+    "scale": 0.97
+  },
+  {
+    "id": 24,
+    "name": "Arbok",
+    "types": [
+      "Poison"
+    ],
+    "height": 3.5,
+    "weight": 65.0,
+    "stats": {
+      "hp": 60,
+      "attack": 95,
+      "defense": 69,
+      "specialAttack": 65,
+      "specialDefense": 79,
+      "speed": 80
+    },
+    "description": "The patterns on its hood differ by region and are said to intimidate its enemies.",
+    "evolvesTo": null,
+    "evolvesFrom": [
+      23
+    ],
+    "image": "../pokemon/024.png",
+    "scale": 1.06
+  },
+  {
+    "id": 25,
+    "name": "Pikachu",
+    "types": [
+      "Electric"
+    ],
+    "height": 0.4,
+    "weight": 6.0,
+    "stats": {
+      "hp": 35,
+      "attack": 55,
+      "defense": 40,
+      "specialAttack": 50,
+      "specialDefense": 50,
+      "speed": 90
+    },
+    "description": "It can store electricity in its cheeks and release powerful electric shocks.",
+    "evolvesTo": [
+      26
+    ],
+    "evolvesFrom": null,
+    "image": "../pokemon/025.png",
+    "scale": 0.83
+  },
+  {
+    "id": 26,
+    "name": "Raichu",
+    "types": [
+      "Electric"
+    ],
+    "height": 0.8,
+    "weight": 30.0,
+    "stats": {
+      "hp": 60,
+      "attack": 90,
+      "defense": 55,
+      "specialAttack": 90,
+      "specialDefense": 80,
+      "speed": 110
+    },
+    "description": "Its long tail acts as a grounding point that protects it from its own electrical power.",
+    "evolvesTo": null,
+    "evolvesFrom": [
+      25
+    ],
+    "image": "../pokemon/026.png",
+    "scale": 0.88
+  },
+  {
+    "id": 27,
+    "name": "Sandshrew",
+    "types": [
+      "Ground"
+    ],
+    "height": 0.6,
+    "weight": 12.0,
+    "stats": {
+      "hp": 50,
+      "attack": 75,
+      "defense": 85,
+      "specialAttack": 20,
+      "specialDefense": 30,
+      "speed": 40
+    },
+    "description": "It burrows deep underground and curls into a ball when threatened.",
+    "evolvesTo": [
+      28
+    ],
+    "evolvesFrom": null,
+    "image": "../pokemon/027.png",
+    "scale": 0.86
+  },
+  {
+    "id": 28,
+    "name": "Sandslash",
+    "types": [
+      "Ground"
+    ],
+    "height": 1.0,
+    "weight": 29.5,
+    "stats": {
+      "hp": 75,
+      "attack": 100,
+      "defense": 110,
+      "specialAttack": 45,
+      "specialDefense": 55,
+      "speed": 65
+    },
+    "description": "Its claws and spikes allow it to climb trees and defend itself from attackers.",
+    "evolvesTo": null,
+    "evolvesFrom": [
+      27
+    ],
+    "image": "../pokemon/028.png",
+    "scale": 0.9
+  },
+  {
+    "id": 29,
+    "name": "Nidoran♀",
+    "types": [
+      "Poison"
+    ],
+    "height": 0.4,
+    "weight": 7.0,
+    "stats": {
+      "hp": 55,
+      "attack": 47,
+      "defense": 52,
+      "specialAttack": 40,
+      "specialDefense": 40,
+      "speed": 41
+    },
+    "description": "Although small, its venomous barbs make it dangerous. It uses its ears to sense danger.",
+    "evolvesTo": [
+      30
+    ],
+    "evolvesFrom": null,
+    "image": "../pokemon/029.png",
+    "scale": 0.83
+  },
+  {
+    "id": 30,
+    "name": "Nidorina",
+    "types": [
+      "Poison"
+    ],
+    "height": 0.8,
+    "weight": 20.0,
+    "stats": {
+      "hp": 70,
+      "attack": 62,
+      "defense": 67,
+      "specialAttack": 55,
+      "specialDefense": 55,
+      "speed": 56
+    },
+    "description": "It is cautious and usually avoids fighting, but its sharp claws can be used when necessary.",
+    "evolvesTo": [
+      31
+    ],
+    "evolvesFrom": [
+      29
+    ],
+    "image": "../pokemon/030.png",
+    "scale": 0.88
+  },
+  {
+    "id": 31,
+    "name": "Nidoqueen",
+    "types": [
+      "Poison",
+      "Ground"
+    ],
+    "height": 1.3,
+    "weight": 60.0,
+    "stats": {
+      "hp": 90,
+      "attack": 92,
+      "defense": 87,
+      "specialAttack": 75,
+      "specialDefense": 85,
+      "speed": 76
+    },
+    "description": "Its hard scales provide strong protection, and it uses its powerful body to defend its young.",
+    "evolvesTo": null,
+    "evolvesFrom": [
+      30
+    ],
+    "image": "../pokemon/031.png",
+    "scale": 0.93
+  },
+  {
+    "id": 32,
+    "name": "Nidoran♂",
+    "types": [
+      "Poison"
+    ],
+    "height": 0.5,
+    "weight": 9.0,
+    "stats": {
+      "hp": 46,
+      "attack": 57,
+      "defense": 40,
+      "specialAttack": 40,
+      "specialDefense": 40,
+      "speed": 50
+    },
+    "description": "It uses its large ears to check its surroundings and its poisonous horn to defend itself.",
+    "evolvesTo": [
+      33
+    ],
+    "evolvesFrom": null,
+    "image": "../pokemon/032.png",
+    "scale": 0.85
+  },
+  {
+    "id": 33,
+    "name": "Nidorino",
+    "types": [
+      "Poison"
+    ],
+    "height": 0.9,
+    "weight": 19.5,
+    "stats": {
+      "hp": 61,
+      "attack": 72,
+      "defense": 57,
+      "specialAttack": 55,
+      "specialDefense": 55,
+      "speed": 65
+    },
+    "description": "Its horn is harder than a diamond and can inject powerful venom into its opponents.",
+    "evolvesTo": [
+      34
+    ],
+    "evolvesFrom": [
+      32
+    ],
+    "image": "../pokemon/033.png",
+    "scale": 0.89
+  },
+  {
+    "id": 34,
+    "name": "Nidoking",
+    "types": [
+      "Poison",
+      "Ground"
+    ],
+    "height": 1.4,
+    "weight": 62.0,
+    "stats": {
+      "hp": 81,
+      "attack": 102,
+      "defense": 77,
+      "specialAttack": 85,
+      "specialDefense": 75,
+      "speed": 85
+    },
+    "description": "Its muscular body is covered with powerful scales, and its horn can inject a strong poison.",
+    "evolvesTo": null,
+    "evolvesFrom": [
+      33
+    ],
+    "image": "../pokemon/034.png",
+    "scale": 0.93
+  },
+  {
+    "id": 35,
+    "name": "Clefairy",
+    "types": [
+      "Fairy"
+    ],
+    "height": 0.6,
+    "weight": 7.5,
+    "stats": {
+      "hp": 70,
+      "attack": 45,
+      "defense": 48,
+      "specialAttack": 60,
+      "specialDefense": 65,
+      "speed": 35
+    },
+    "description": "It is said to come from the moon and is often seen dancing under the light of a full moon.",
+    "evolvesTo": [
+      36
+    ],
+    "evolvesFrom": null,
+    "image": "../pokemon/035.png",
+    "scale": 0.86
+  },
+  {
+    "id": 36,
+    "name": "Clefable",
+    "types": [
+      "Fairy"
+    ],
+    "height": 1.3,
+    "weight": 40.0,
+    "stats": {
+      "hp": 95,
+      "attack": 70,
+      "defense": 73,
+      "specialAttack": 95,
+      "specialDefense": 90,
+      "speed": 60
+    },
+    "description": "Its hearing is so sensitive that it can hear a pin drop from more than a kilometer away.",
+    "evolvesTo": null,
+    "evolvesFrom": [
+      35
+    ],
+    "image": "../pokemon/036.png",
+    "scale": 0.93
+  },
+  {
+    "id": 37,
+    "name": "Vulpix",
+    "types": [
+      "Fire"
+    ],
+    "height": 0.6,
+    "weight": 9.9,
+    "stats": {
+      "hp": 38,
+      "attack": 41,
+      "defense": 40,
+      "specialAttack": 50,
+      "specialDefense": 65,
+      "speed": 65
+    },
+    "description": "It is born with one white tail that splits into six tails as it grows.",
+    "evolvesTo": [
+      38
+    ],
+    "evolvesFrom": null,
+    "image": "../pokemon/037.png",
+    "scale": 0.86
+  },
+  {
+    "id": 38,
+    "name": "Ninetales",
+    "types": [
+      "Fire"
+    ],
+    "height": 1.1,
+    "weight": 19.9,
+    "stats": {
+      "hp": 73,
+      "attack": 76,
+      "defense": 75,
+      "specialAttack": 81,
+      "specialDefense": 100,
+      "speed": 100
+    },
+    "description": "It is said to live for a thousand years, and each of its nine tails has a special power.",
+    "evolvesTo": null,
+    "evolvesFrom": [
+      37
+    ],
+    "image": "../pokemon/038.png",
+    "scale": 0.91
+  },
+  {
+    "id": 39,
+    "name": "Jigglypuff",
+    "types": [
+      "Normal",
+      "Fairy"
+    ],
+    "height": 0.5,
+    "weight": 5.5,
+    "stats": {
+      "hp": 115,
+      "attack": 45,
+      "defense": 20,
+      "specialAttack": 45,
+      "specialDefense": 25,
+      "speed": 20
+    },
+    "description": "Its soothing voice can lull listeners into a deep sleep.",
+    "evolvesTo": [
+      40
+    ],
+    "evolvesFrom": null,
+    "image": "../pokemon/039.png",
+    "scale": 0.85
+  },
+  {
+    "id": 40,
+    "name": "Wigglytuff",
+    "types": [
+      "Normal",
+      "Fairy"
+    ],
+    "height": 1.0,
+    "weight": 12.0,
+    "stats": {
+      "hp": 140,
+      "attack": 70,
+      "defense": 45,
+      "specialAttack": 85,
+      "specialDefense": 50,
+      "speed": 45
+    },
+    "description": "Its body is soft and rubbery, allowing it to inflate itself by inhaling air.",
+    "evolvesTo": null,
+    "evolvesFrom": [
+      39
+    ],
+    "image": "../pokemon/040.png",
+    "scale": 0.9
+  },
+  {
+    "id": 41,
+    "name": "Zubat",
+    "types": [
+      "Poison",
+      "Flying"
+    ],
+    "height": 0.8,
+    "weight": 7.5,
+    "stats": {
+      "hp": 40,
+      "attack": 45,
+      "defense": 35,
+      "specialAttack": 30,
+      "specialDefense": 40,
+      "speed": 55
+    },
+    "description": "It emits ultrasonic waves to navigate through dark places because it cannot see.",
+    "evolvesTo": [
+      42
+    ],
+    "evolvesFrom": null,
+    "image": "../pokemon/041.png",
+    "scale": 0.88
+  },
+  {
+    "id": 42,
+    "name": "Golbat",
+    "types": [
+      "Poison",
+      "Flying"
+    ],
+    "height": 1.6,
+    "weight": 55.0,
+    "stats": {
+      "hp": 75,
+      "attack": 80,
+      "defense": 70,
+      "specialAttack": 65,
+      "specialDefense": 75,
+      "speed": 90
+    },
+    "description": "It attacks prey with its sharp fangs and drinks their blood.",
+    "evolvesTo": null,
+    "evolvesFrom": [
+      41
+    ],
+    "image": "../pokemon/042.png",
+    "scale": 0.95
+  },
+  {
+    "id": 43,
+    "name": "Oddish",
+    "types": [
+      "Grass",
+      "Poison"
+    ],
+    "height": 0.5,
+    "weight": 5.4,
+    "stats": {
+      "hp": 45,
+      "attack": 50,
+      "defense": 55,
+      "specialAttack": 75,
+      "specialDefense": 65,
+      "speed": 30
+    },
+    "description": "During the day it stays buried in the ground, absorbing nutrients from the soil.",
+    "evolvesTo": [
+      44
+    ],
+    "evolvesFrom": null,
+    "image": "../pokemon/043.png",
+    "scale": 0.85
+  },
+  {
+    "id": 44,
+    "name": "Gloom",
+    "types": [
+      "Grass",
+      "Poison"
+    ],
+    "height": 0.8,
+    "weight": 8.6,
+    "stats": {
+      "hp": 60,
+      "attack": 65,
+      "defense": 70,
+      "specialAttack": 85,
+      "specialDefense": 75,
+      "speed": 40
+    },
+    "description": "The fluid that drips from its mouth has a powerful and unpleasant smell.",
+    "evolvesTo": [
+      45,
+      182
+    ],
+    "evolvesFrom": [
+      43
+    ],
+    "image": "../pokemon/044.png",
+    "scale": 0.88
+  },
+  {
+    "id": 45,
+    "name": "Vileplume",
+    "types": [
+      "Grass",
+      "Poison"
+    ],
+    "height": 1.2,
+    "weight": 18.6,
+    "stats": {
+      "hp": 75,
+      "attack": 80,
+      "defense": 85,
+      "specialAttack": 110,
+      "specialDefense": 90,
+      "speed": 50
+    },
+    "description": "Its large flower releases clouds of pollen that can cause strong allergic reactions.",
+    "evolvesTo": null,
+    "evolvesFrom": [
+      44
+    ],
+    "image": "../pokemon/045.png",
+    "scale": 0.92
+  },
+  {
+    "id": 46,
+    "name": "Paras",
+    "types": [
+      "Bug",
+      "Grass"
+    ],
+    "height": 0.3,
+    "weight": 5.4,
+    "stats": {
+      "hp": 35,
+      "attack": 70,
+      "defense": 55,
+      "specialAttack": 45,
+      "specialDefense": 55,
+      "speed": 25
+    },
+    "description": "Mushrooms grow on its back and draw nutrients from its host.",
+    "evolvesTo": [
+      47
+    ],
+    "evolvesFrom": null,
+    "image": "../pokemon/046.png",
+    "scale": 0.82
+  },
+  {
+    "id": 47,
+    "name": "Parasect",
+    "types": [
+      "Bug",
+      "Grass"
+    ],
+    "height": 1.0,
+    "weight": 29.5,
+    "stats": {
+      "hp": 60,
+      "attack": 95,
+      "defense": 80,
+      "specialAttack": 60,
+      "specialDefense": 80,
+      "speed": 30
+    },
+    "description": "The mushroom on its back has taken over its body and controls its movements.",
+    "evolvesTo": null,
+    "evolvesFrom": [
+      46
+    ],
+    "image": "../pokemon/047.png",
+    "scale": 0.9
+  },
+  {
+    "id": 48,
+    "name": "Venonat",
+    "types": [
+      "Bug",
+      "Poison"
+    ],
+    "height": 1.0,
+    "weight": 30.0,
+    "stats": {
+      "hp": 60,
+      "attack": 55,
+      "defense": 50,
+      "specialAttack": 40,
+      "specialDefense": 55,
+      "speed": 45
+    },
+    "description": "Its large eyes can detect tiny creatures even in darkness.",
+    "evolvesTo": [
+      49
+    ],
+    "evolvesFrom": null,
+    "image": "../pokemon/048.png",
+    "scale": 0.9
+  },
+  {
+    "id": 49,
+    "name": "Venomoth",
+    "types": [
+      "Bug",
+      "Poison"
+    ],
+    "height": 1.5,
+    "weight": 12.5,
+    "stats": {
+      "hp": 70,
+      "attack": 65,
+      "defense": 60,
+      "specialAttack": 90,
+      "specialDefense": 75,
+      "speed": 90
+    },
+    "description": "Its wings are covered in scales that can release poisonous powder when disturbed.",
+    "evolvesTo": null,
+    "evolvesFrom": [
+      48
+    ],
+    "image": "../pokemon/049.png",
+    "scale": 0.94
+  },
+  {
+    "id": 50,
+    "name": "Diglett",
+    "types": [
+      "Ground"
+    ],
+    "height": 0.2,
+    "weight": 0.8,
+    "stats": {
+      "hp": 10,
+      "attack": 55,
+      "defense": 25,
+      "specialAttack": 35,
+      "specialDefense": 45,
+      "speed": 95
+    },
+    "description": "It lives underground and leaves raised earth behind as it digs through the soil.",
+    "evolvesTo": [
+      51
+    ],
+    "evolvesFrom": null,
+    "image": "../pokemon/050.png",
+    "scale": 0.8
+  },
+  {
+    "id": 51,
+    "name": "Dugtrio",
+    "types": [
+      "Ground"
+    ],
+    "height": 0.7,
+    "weight": 33.3,
+    "stats": {
+      "hp": 35,
+      "attack": 100,
+      "defense": 50,
+      "specialAttack": 50,
+      "specialDefense": 70,
+      "speed": 120
+    },
+    "description": "Three Diglett work together as one unit, digging powerful tunnels through the ground.",
+    "evolvesTo": null,
+    "evolvesFrom": [
+      50
+    ],
+    "image": "../pokemon/051.png",
+    "scale": 0.87
+  },
+  {
+    "id": 52,
+    "name": "Meowth",
+    "types": [
+      "Normal"
+    ],
+    "height": 0.4,
+    "weight": 4.2,
+    "stats": {
+      "hp": 40,
+      "attack": 45,
+      "defense": 35,
+      "specialAttack": 40,
+      "specialDefense": 40,
+      "speed": 90
+    },
+    "description": "It loves shiny objects and often wanders at night looking for something to collect.",
+    "evolvesTo": [
+      53
+    ],
+    "evolvesFrom": null,
+    "image": "../pokemon/052.png",
+    "scale": 0.83
+  },
+  {
+    "id": 53,
+    "name": "Persian",
+    "types": [
+      "Normal"
+    ],
+    "height": 1.0,
+    "weight": 32.0,
+    "stats": {
+      "hp": 65,
+      "attack": 70,
+      "defense": 60,
+      "specialAttack": 65,
+      "specialDefense": 65,
+      "speed": 115
+    },
+    "description": "Its sleek body and sharp claws make it an agile and dangerous hunter.",
+    "evolvesTo": null,
+    "evolvesFrom": [
+      52
+    ],
+    "image": "../pokemon/053.png",
+    "scale": 0.9
+  },
+  {
+    "id": 54,
+    "name": "Psyduck",
+    "types": [
+      "Water"
+    ],
+    "height": 0.8,
+    "weight": 19.6,
+    "stats": {
+      "hp": 50,
+      "attack": 52,
+      "defense": 48,
+      "specialAttack": 65,
+      "specialDefense": 50,
+      "speed": 55
+    },
+    "description": "It often suffers from headaches and sometimes unleashes mysterious psychic powers when the pain becomes severe.",
+    "evolvesTo": [
+      55
+    ],
+    "evolvesFrom": null,
+    "image": "../pokemon/054.png",
+    "scale": 0.88
+  },
+  {
+    "id": 55,
+    "name": "Golduck",
+    "types": [
+      "Water"
+    ],
+    "height": 1.7,
+    "weight": 76.6,
+    "stats": {
+      "hp": 80,
+      "attack": 82,
+      "defense": 78,
+      "specialAttack": 95,
+      "specialDefense": 80,
+      "speed": 85
+    },
+    "description": "Its streamlined body allows it to swim extremely quickly through water.",
+    "evolvesTo": null,
+    "evolvesFrom": [
+      54
+    ],
+    "image": "../pokemon/055.png",
+    "scale": 0.95
+  },
+  {
+    "id": 56,
+    "name": "Mankey",
+    "types": [
+      "Fighting"
+    ],
+    "height": 0.5,
+    "weight": 28.0,
+    "stats": {
+      "hp": 40,
+      "attack": 80,
+      "defense": 35,
+      "specialAttack": 35,
+      "specialDefense": 45,
+      "speed": 70
+    },
+    "description": "It becomes extremely angry over small things and can quickly lose control of its temper.",
+    "evolvesTo": [
+      57
+    ],
+    "evolvesFrom": null,
+    "image": "../pokemon/056.png",
+    "scale": 0.85
+  },
+  {
+    "id": 57,
+    "name": "Primeape",
+    "types": [
+      "Fighting"
+    ],
+    "height": 1.0,
+    "weight": 32.0,
+    "stats": {
+      "hp": 65,
+      "attack": 105,
+      "defense": 60,
+      "specialAttack": 60,
+      "specialDefense": 70,
+      "speed": 95
+    },
+    "description": "It becomes so enraged that it will chase its target relentlessly until it finally calms down.",
+    "evolvesTo": null,
+    "evolvesFrom": [
+      56
+    ],
+    "image": "../pokemon/057.png",
+    "scale": 0.9
+  },
+  {
+    "id": 58,
+    "name": "Growlithe",
+    "types": [
+      "Fire"
+    ],
+    "height": 0.7,
+    "weight": 19.0,
+    "stats": {
+      "hp": 55,
+      "attack": 70,
+      "defense": 45,
+      "specialAttack": 70,
+      "specialDefense": 50,
+      "speed": 60
+    },
+    "description": "It is loyal and brave, often protecting its territory and trainer with great courage.",
+    "evolvesTo": [
+      59
+    ],
+    "evolvesFrom": null,
+    "image": "../pokemon/058.png",
+    "scale": 0.87
+  },
+  {
+    "id": 59,
+    "name": "Arcanine",
+    "types": [
+      "Fire"
+    ],
+    "height": 1.9,
+    "weight": 155.0,
+    "stats": {
+      "hp": 90,
+      "attack": 110,
+      "defense": 80,
+      "specialAttack": 100,
+      "specialDefense": 80,
+      "speed": 95
+    },
+    "description": "Its majestic appearance and powerful speed have made it famous in legends.",
+    "evolvesTo": null,
+    "evolvesFrom": [
+      58
+    ],
+    "image": "../pokemon/059.png",
+    "scale": 0.97
+  },
+  {
+    "id": 60,
+    "name": "Poliwag",
+    "types": [
+      "Water"
+    ],
+    "height": 0.6,
+    "weight": 12.4,
+    "stats": {
+      "hp": 40,
+      "attack": 50,
+      "defense": 40,
+      "specialAttack": 40,
+      "specialDefense": 40,
+      "speed": 90
+    },
+    "description": "Its thin skin reveals the spiral-shaped organs inside its body.",
+    "evolvesTo": [
+      61
+    ],
+    "evolvesFrom": null,
+    "image": "../pokemon/060.png",
+    "scale": 0.86
+  },
+  {
+    "id": 61,
+    "name": "Poliwhirl",
+    "types": [
+      "Water"
+    ],
+    "height": 1.0,
+    "weight": 20.0,
+    "stats": {
+      "hp": 65,
+      "attack": 65,
+      "defense": 65,
+      "specialAttack": 50,
+      "specialDefense": 50,
+      "speed": 90
+    },
+    "description": "Its smooth skin makes it difficult to grab, while the spiral pattern on its belly can mesmerize foes.",
+    "evolvesTo": [
+      62
+    ],
+    "evolvesFrom": [
+      60
+    ],
+    "image": "../pokemon/061.png",
+    "scale": 0.9
+  },
+  {
+    "id": 62,
+    "name": "Poliwrath",
+    "types": [
+      "Water",
+      "Fighting"
+    ],
+    "height": 1.3,
+    "weight": 54.0,
+    "stats": {
+      "hp": 90,
+      "attack": 95,
+      "defense": 95,
+      "specialAttack": 70,
+      "specialDefense": 90,
+      "speed": 70
+    },
+    "description": "Its powerful muscles allow it to swim great distances and fight with incredible strength.",
+    "evolvesTo": null,
+    "evolvesFrom": [
+      61
+    ],
+    "image": "../pokemon/062.png",
+    "scale": 0.93
+  },
+  {
+    "id": 63,
+    "name": "Abra",
+    "types": [
+      "Psychic"
+    ],
+    "height": 0.9,
+    "weight": 19.5,
+    "stats": {
+      "hp": 25,
+      "attack": 20,
+      "defense": 15,
+      "specialAttack": 105,
+      "specialDefense": 55,
+      "speed": 90
+    },
+    "description": "It sleeps for most of the day and uses its psychic powers to teleport when threatened.",
+    "evolvesTo": [
+      64
+    ],
+    "evolvesFrom": null,
+    "image": "../pokemon/063.png",
+    "scale": 0.89
+  },
+  {
+    "id": 64,
+    "name": "Kadabra",
+    "types": [
+      "Psychic"
+    ],
+    "height": 1.3,
+    "weight": 56.5,
+    "stats": {
+      "hp": 40,
+      "attack": 35,
+      "defense": 30,
+      "specialAttack": 120,
+      "specialDefense": 70,
+      "speed": 105
+    },
+    "description": "Its powerful psychic abilities cause strange events to happen around it.",
+    "evolvesTo": [
+      65
+    ],
+    "evolvesFrom": [
+      63
+    ],
+    "image": "../pokemon/064.png",
+    "scale": 0.93
+  },
+  {
+    "id": 65,
+    "name": "Alakazam",
+    "types": [
+      "Psychic"
+    ],
+    "height": 1.5,
+    "weight": 48.0,
+    "stats": {
+      "hp": 55,
+      "attack": 50,
+      "defense": 45,
+      "specialAttack": 135,
+      "specialDefense": 95,
+      "speed": 120
+    },
+    "description": "Its incredible intelligence allows it to remember everything it experiences and solve complex problems.",
+    "evolvesTo": null,
+    "evolvesFrom": [
+      64
+    ],
+    "image": "../pokemon/065.png",
+    "scale": 0.94
+  },
+  {
+    "id": 66,
+    "name": "Machop",
+    "types": [
+      "Fighting"
+    ],
+    "height": 0.8,
+    "weight": 19.5,
+    "stats": {
+      "hp": 70,
+      "attack": 80,
+      "defense": 50,
+      "specialAttack": 35,
+      "specialDefense": 35,
+      "speed": 35
+    },
+    "description": "It trains constantly to become stronger and can easily lift heavy objects despite its small size.",
+    "evolvesTo": [
+      67
+    ],
+    "evolvesFrom": null,
+    "image": "../pokemon/066.png",
+    "scale": 0.88
+  },
+  {
+    "id": 67,
+    "name": "Machoke",
+    "types": [
+      "Fighting"
+    ],
+    "height": 1.5,
+    "weight": 70.5,
+    "stats": {
+      "hp": 80,
+      "attack": 100,
+      "defense": 70,
+      "specialAttack": 50,
+      "specialDefense": 60,
+      "speed": 45
+    },
+    "description": "Its muscular body is extremely powerful, so it wears a belt to help control its strength.",
+    "evolvesTo": [
+      68
+    ],
+    "evolvesFrom": [
+      66
+    ],
+    "image": "../pokemon/067.png",
+    "scale": 0.94
+  },
+  {
+    "id": 68,
+    "name": "Machamp",
+    "types": [
+      "Fighting"
+    ],
+    "height": 1.6,
+    "weight": 130.0,
+    "stats": {
+      "hp": 90,
+      "attack": 130,
+      "defense": 80,
+      "specialAttack": 65,
+      "specialDefense": 85,
+      "speed": 55
+    },
+    "description": "With four powerful arms, it can deliver many punches at incredible speed.",
+    "evolvesTo": null,
+    "evolvesFrom": [
+      67
+    ],
+    "image": "../pokemon/068.png",
+    "scale": 0.95
+  },
+  {
+    "id": 69,
+    "name": "Bellsprout",
+    "types": [
+      "Grass",
+      "Poison"
+    ],
+    "height": 0.7,
+    "weight": 4.0,
+    "stats": {
+      "hp": 50,
+      "attack": 75,
+      "defense": 35,
+      "specialAttack": 70,
+      "specialDefense": 30,
+      "speed": 40
+    },
+    "description": "Its flexible body allows it to bend and sway, making it difficult for prey to escape.",
+    "evolvesTo": [
+      70
+    ],
+    "evolvesFrom": null,
+    "image": "../pokemon/069.png",
+    "scale": 0.87
+  },
+  {
+    "id": 70,
+    "name": "Weepinbell",
+    "types": [
+      "Grass",
+      "Poison"
+    ],
+    "height": 1.0,
+    "weight": 6.4,
+    "stats": {
+      "hp": 65,
+      "attack": 90,
+      "defense": 50,
+      "specialAttack": 85,
+      "specialDefense": 45,
+      "speed": 55
+    },
+    "description": "It catches prey with its vines and dissolves them using digestive fluids.",
+    "evolvesTo": [
+      71
+    ],
+    "evolvesFrom": [
+      69
+    ],
+    "image": "../pokemon/070.png",
+    "scale": 0.9
+  },
+  {
+    "id": 71,
+    "name": "Victreebel",
+    "types": [
+      "Grass",
+      "Poison"
+    ],
+    "height": 1.7,
+    "weight": 15.5,
+    "stats": {
+      "hp": 80,
+      "attack": 105,
+      "defense": 65,
+      "specialAttack": 100,
+      "specialDefense": 70,
+      "speed": 70
+    },
+    "description": "It attracts prey with a sweet scent before trapping them inside its large pitcher-shaped body.",
+    "evolvesTo": null,
+    "evolvesFrom": [
+      70
+    ],
+    "image": "../pokemon/071.png",
+    "scale": 0.95
+  },
+  {
+    "id": 72,
+    "name": "Tentacool",
+    "types": [
+      "Water",
+      "Poison"
+    ],
+    "height": 0.9,
+    "weight": 45.5,
+    "stats": {
+      "hp": 40,
+      "attack": 40,
+      "defense": 35,
+      "specialAttack": 100,
+      "specialDefense": 100,
+      "speed": 70
+    },
+    "description": "It floats through the ocean and uses its poisonous tentacles to defend itself.",
+    "evolvesTo": [
+      73
+    ],
+    "evolvesFrom": null,
+    "image": "../pokemon/072.png",
+    "scale": 0.89
+  },
+  {
+    "id": 73,
+    "name": "Tentacruel",
+    "types": [
+      "Water",
+      "Poison"
+    ],
+    "height": 1.6,
+    "weight": 55.0,
+    "stats": {
+      "hp": 80,
+      "attack": 70,
+      "defense": 65,
+      "specialAttack": 80,
+      "specialDefense": 120,
+      "speed": 100
+    },
+    "description": "Its many tentacles can stretch long distances and release powerful poison.",
+    "evolvesTo": null,
+    "evolvesFrom": [
+      72
+    ],
+    "image": "../pokemon/073.png",
+    "scale": 0.95
+  },
+  {
+    "id": 74,
+    "name": "Geodude",
+    "types": [
+      "Rock",
+      "Ground"
+    ],
+    "height": 0.4,
+    "weight": 20.0,
+    "stats": {
+      "hp": 40,
+      "attack": 80,
+      "defense": 100,
+      "specialAttack": 30,
+      "specialDefense": 30,
+      "speed": 20
+    },
+    "description": "It lives among rocks and often goes unnoticed because it looks like an ordinary stone.",
+    "evolvesTo": [
+      75
+    ],
+    "evolvesFrom": null,
+    "image": "../pokemon/074.png",
+    "scale": 0.83
+  },
+  {
+    "id": 75,
+    "name": "Graveler",
+    "types": [
+      "Rock",
+      "Ground"
+    ],
+    "height": 1.0,
+    "weight": 105.0,
+    "stats": {
+      "hp": 55,
+      "attack": 95,
+      "defense": 115,
+      "specialAttack": 45,
+      "specialDefense": 45,
+      "speed": 35
+    },
+    "description": "It rolls down mountainsides without stopping, crushing everything in its path.",
+    "evolvesTo": [
+      76
+    ],
+    "evolvesFrom": [
+      74
+    ],
+    "image": "../pokemon/075.png",
+    "scale": 0.9
+  },
+  {
+    "id": 76,
+    "name": "Golem",
+    "types": [
+      "Rock",
+      "Ground"
+    ],
+    "height": 1.4,
+    "weight": 300.0,
+    "stats": {
+      "hp": 80,
+      "attack": 120,
+      "defense": 130,
+      "specialAttack": 55,
+      "specialDefense": 65,
+      "speed": 45
+    },
+    "description": "Its rocky body is extremely durable, allowing it to survive powerful explosions.",
+    "evolvesTo": null,
+    "evolvesFrom": [
+      75
+    ],
+    "image": "../pokemon/076.png",
+    "scale": 0.93
+  },
+  {
+    "id": 77,
+    "name": "Ponyta",
+    "types": [
+      "Fire"
+    ],
+    "height": 1.0,
+    "weight": 30.0,
+    "stats": {
+      "hp": 50,
+      "attack": 85,
+      "defense": 55,
+      "specialAttack": 65,
+      "specialDefense": 65,
+      "speed": 90
+    },
+    "description": "Its fiery mane and tail become stronger as it grows, and it can run incredibly fast.",
+    "evolvesTo": [
+      78
+    ],
+    "evolvesFrom": null,
+    "image": "../pokemon/077.png",
+    "scale": 0.9
+  },
+  {
+    "id": 78,
+    "name": "Rapidash",
+    "types": [
+      "Fire"
+    ],
+    "height": 1.7,
+    "weight": 95.0,
+    "stats": {
+      "hp": 65,
+      "attack": 100,
+      "defense": 70,
+      "specialAttack": 80,
+      "specialDefense": 80,
+      "speed": 105
+    },
+    "description": "It races across open fields at incredible speeds, its mane blazing as it runs.",
+    "evolvesTo": null,
+    "evolvesFrom": [
+      77
+    ],
+    "image": "../pokemon/078.png",
+    "scale": 0.95
+  },
+  {
+    "id": 79,
+    "name": "Slowpoke",
+    "types": [
+      "Water",
+      "Psychic"
+    ],
+    "height": 1.2,
+    "weight": 36.0,
+    "stats": {
+      "hp": 90,
+      "attack": 65,
+      "defense": 65,
+      "specialAttack": 40,
+      "specialDefense": 40,
+      "speed": 15
+    },
+    "description": "It is very slow and often spends its days sitting beside rivers without noticing its surroundings.",
+    "evolvesTo": [
+      80
+    ],
+    "evolvesFrom": null,
+    "image": "../pokemon/079.png",
+    "scale": 0.92
+  },
+  {
+    "id": 80,
+    "name": "Slowbro",
+    "types": [
+      "Water",
+      "Psychic"
+    ],
+    "height": 1.6,
+    "weight": 78.5,
+    "stats": {
+      "hp": 95,
+      "attack": 75,
+      "defense": 110,
+      "specialAttack": 100,
+      "specialDefense": 80,
+      "speed": 30
+    },
+    "description": "A Shellder attached to its tail causes it to feel little pain and makes it unusually calm.",
+    "evolvesTo": null,
+    "evolvesFrom": [
+      79
+    ],
+    "image": "../pokemon/080.png",
+    "scale": 0.95
+  },
+  {
+    "id": 81,
+    "name": "Magnemite",
+    "types": [
+      "Electric",
+      "Steel"
+    ],
+    "height": 0.3,
+    "weight": 6.0,
+    "stats": {
+      "hp": 25,
+      "attack": 35,
+      "defense": 70,
+      "specialAttack": 95,
+      "specialDefense": 55,
+      "speed": 45
+    },
+    "description": "It floats using electromagnetic forces and attacks by releasing powerful electric energy.",
+    "evolvesTo": [
+      82
+    ],
+    "evolvesFrom": null,
+    "image": "../pokemon/081.png",
+    "scale": 0.82
+  },
+  {
+    "id": 82,
+    "name": "Magneton",
+    "types": [
+      "Electric",
+      "Steel"
+    ],
+    "height": 1.0,
+    "weight": 60.0,
+    "stats": {
+      "hp": 50,
+      "attack": 60,
+      "defense": 95,
+      "specialAttack": 120,
+      "specialDefense": 70,
+      "speed": 70
+    },
+    "description": "Three Magnemite join together to create a powerful magnetic force that can disrupt electronics.",
+    "evolvesTo": null,
+    "evolvesFrom": [
+      81
+    ],
+    "image": "../pokemon/082.png",
+    "scale": 0.9
+  },
+  {
+    "id": 83,
+    "name": "Farfetch'd",
+    "types": [
+      "Normal",
+      "Flying"
+    ],
+    "height": 0.8,
+    "weight": 15.0,
+    "stats": {
+      "hp": 52,
+      "attack": 65,
+      "defense": 55,
+      "specialAttack": 58,
+      "specialDefense": 62,
+      "speed": 60
+    },
+    "description": "It carries a leek like a weapon and uses it skillfully in battle.",
+    "evolvesTo": null,
+    "evolvesFrom": null,
+    "image": "../pokemon/083.png",
+    "scale": 0.88
+  },
+  {
+    "id": 84,
+    "name": "Doduo",
+    "types": [
+      "Normal",
+      "Flying"
+    ],
+    "height": 1.4,
+    "weight": 39.2,
+    "stats": {
+      "hp": 35,
+      "attack": 85,
+      "defense": 45,
+      "specialAttack": 35,
+      "specialDefense": 35,
+      "speed": 75
+    },
+    "description": "It has two heads that work together to keep watch while it runs across open ground.",
+    "evolvesTo": [
+      85
+    ],
+    "evolvesFrom": null,
+    "image": "../pokemon/084.png",
+    "scale": 0.93
+  },
+  {
+    "id": 85,
+    "name": "Dodrio",
+    "types": [
+      "Normal",
+      "Flying"
+    ],
+    "height": 1.8,
+    "weight": 85.2,
+    "stats": {
+      "hp": 60,
+      "attack": 110,
+      "defense": 70,
+      "specialAttack": 60,
+      "specialDefense": 60,
+      "speed": 110
+    },
+    "description": "Its three heads allow it to stay alert while running at very high speeds.",
+    "evolvesTo": null,
+    "evolvesFrom": [
+      84
+    ],
+    "image": "../pokemon/085.png",
+    "scale": 0.96
+  },
+  {
+    "id": 86,
+    "name": "Seel",
+    "types": [
+      "Water"
+    ],
+    "height": 1.1,
+    "weight": 90.0,
+    "stats": {
+      "hp": 65,
+      "attack": 45,
+      "defense": 55,
+      "specialAttack": 45,
+      "specialDefense": 70,
+      "speed": 45
+    },
+    "description": "It prefers cold waters and uses its horn to break through thick ice.",
+    "evolvesTo": [
+      87
+    ],
+    "evolvesFrom": null,
+    "image": "../pokemon/086.png",
+    "scale": 0.91
+  },
+  {
+    "id": 87,
+    "name": "Dewgong",
+    "types": [
+      "Water",
+      "Ice"
+    ],
+    "height": 1.7,
+    "weight": 120.0,
+    "stats": {
+      "hp": 90,
+      "attack": 70,
+      "defense": 80,
+      "specialAttack": 70,
+      "specialDefense": 95,
+      "speed": 70
+    },
+    "description": "Its thick body and layer of fat allow it to swim comfortably through freezing waters.",
+    "evolvesTo": null,
+    "evolvesFrom": [
+      86
+    ],
+    "image": "../pokemon/087.png",
+    "scale": 0.95
+  },
+  {
+    "id": 88,
+    "name": "Grimer",
+    "types": [
+      "Poison"
+    ],
+    "height": 0.9,
+    "weight": 30.0,
+    "stats": {
+      "hp": 80,
+      "attack": 80,
+      "defense": 50,
+      "specialAttack": 40,
+      "specialDefense": 50,
+      "speed": 25
+    },
+    "description": "It is made from polluted sludge and leaves a poisonous trail wherever it travels.",
+    "evolvesTo": [
+      89
+    ],
+    "evolvesFrom": null,
+    "image": "../pokemon/088.png",
+    "scale": 0.89
+  },
+  {
+    "id": 89,
+    "name": "Muk",
+    "types": [
+      "Poison"
+    ],
+    "height": 1.2,
+    "weight": 30.0,
+    "stats": {
+      "hp": 105,
+      "attack": 105,
+      "defense": 75,
+      "specialAttack": 65,
+      "specialDefense": 100,
+      "speed": 50
+    },
+    "description": "Its poisonous body is covered in toxic sludge that can damage anything it touches.",
+    "evolvesTo": null,
+    "evolvesFrom": [
+      88
+    ],
+    "image": "../pokemon/089.png",
+    "scale": 0.92
+  },
+  {
+    "id": 90,
+    "name": "Shellder",
+    "types": [
+      "Water"
+    ],
+    "height": 0.3,
+    "weight": 4.0,
+    "stats": {
+      "hp": 30,
+      "attack": 65,
+      "defense": 100,
+      "specialAttack": 45,
+      "specialDefense": 25,
+      "speed": 40
+    },
+    "description": "Its hard shell protects its soft body, and it closes the shell tightly when threatened.",
+    "evolvesTo": [
+      91
+    ],
+    "evolvesFrom": null,
+    "image": "../pokemon/090.png",
+    "scale": 0.82
+  },
+  {
+    "id": 91,
+    "name": "Cloyster",
+    "types": [
+      "Water",
+      "Ice"
+    ],
+    "height": 1.5,
+    "weight": 132.5,
+    "stats": {
+      "hp": 50,
+      "attack": 95,
+      "defense": 180,
+      "specialAttack": 85,
+      "specialDefense": 45,
+      "speed": 70
+    },
+    "description": "Its extremely hard shell protects it from almost any attack, while sharp spikes can launch from its body.",
+    "evolvesTo": null,
+    "evolvesFrom": [
+      90
+    ],
+    "image": "../pokemon/091.png",
+    "scale": 0.94
+  },
+  {
+    "id": 92,
+    "name": "Gastly",
+    "types": [
+      "Ghost",
+      "Poison"
+    ],
+    "height": 1.3,
+    "weight": 0.1,
+    "stats": {
+      "hp": 30,
+      "attack": 35,
+      "defense": 30,
+      "specialAttack": 100,
+      "specialDefense": 35,
+      "speed": 80
+    },
+    "description": "Its body is made almost entirely of gas, allowing it to slip through walls and surround its opponents.",
+    "evolvesTo": [
+      93
+    ],
+    "evolvesFrom": null,
+    "image": "../pokemon/092.png",
+    "scale": 0.93
+  },
+  {
+    "id": 93,
+    "name": "Haunter",
+    "types": [
+      "Ghost",
+      "Poison"
+    ],
+    "height": 1.6,
+    "weight": 0.1,
+    "stats": {
+      "hp": 45,
+      "attack": 50,
+      "defense": 45,
+      "specialAttack": 115,
+      "specialDefense": 55,
+      "speed": 95
+    },
+    "description": "It hides in darkness and can pass through solid objects while searching for unsuspecting prey.",
+    "evolvesTo": [
+      94
+    ],
+    "evolvesFrom": [
+      92
+    ],
+    "image": "../pokemon/093.png",
+    "scale": 0.95
+  },
+  {
+    "id": 94,
+    "name": "Gengar",
+    "types": [
+      "Ghost",
+      "Poison"
+    ],
+    "height": 1.5,
+    "weight": 40.5,
+    "stats": {
+      "hp": 60,
+      "attack": 65,
+      "defense": 60,
+      "specialAttack": 130,
+      "specialDefense": 75,
+      "speed": 110
+    },
+    "description": "It hides in shadows and enjoys frightening people by appearing suddenly behind them.",
+    "evolvesTo": null,
+    "evolvesFrom": [
+      93
+    ],
+    "image": "../pokemon/094.png",
+    "scale": 0.94
+  },
+  {
+    "id": 95,
+    "name": "Onix",
+    "types": [
+      "Rock",
+      "Ground"
+    ],
+    "height": 8.8,
+    "weight": 210.0,
+    "stats": {
+      "hp": 35,
+      "attack": 45,
+      "defense": 160,
+      "specialAttack": 30,
+      "specialDefense": 45,
+      "speed": 70
+    },
+    "description": "It burrows through the ground at high speed, leaving behind long tunnels as it searches for food.",
+    "evolvesTo": null,
+    "evolvesFrom": null,
+    "image": "../pokemon/095.png",
+    "scale": 1.1
+  },
+  {
+    "id": 96,
+    "name": "Drowzee",
+    "types": [
+      "Psychic"
+    ],
+    "height": 1.0,
+    "weight": 32.4,
+    "stats": {
+      "hp": 60,
+      "attack": 48,
+      "defense": 45,
+      "specialAttack": 43,
+      "specialDefense": 90,
+      "speed": 42
+    },
+    "description": "It feeds on dreams and can put people to sleep using its psychic abilities.",
+    "evolvesTo": [
+      97
+    ],
+    "evolvesFrom": null,
+    "image": "../pokemon/096.png",
+    "scale": 0.9
+  },
+  {
+    "id": 97,
+    "name": "Hypno",
+    "types": [
+      "Psychic"
+    ],
+    "height": 1.6,
+    "weight": 75.6,
+    "stats": {
+      "hp": 85,
+      "attack": 73,
+      "defense": 70,
+      "specialAttack": 73,
+      "specialDefense": 115,
+      "speed": 67
+    },
+    "description": "It uses a pendulum to put people to sleep and can manipulate their dreams.",
+    "evolvesTo": null,
+    "evolvesFrom": [
+      96
+    ],
+    "image": "../pokemon/097.png",
+    "scale": 0.95
+  },
+  {
+    "id": 98,
+    "name": "Krabby",
+    "types": [
+      "Water"
+    ],
+    "height": 0.4,
+    "weight": 6.5,
+    "stats": {
+      "hp": 30,
+      "attack": 105,
+      "defense": 90,
+      "specialAttack": 25,
+      "specialDefense": 25,
+      "speed": 50
+    },
+    "description": "It lives near beaches and uses its large pincers to defend itself and catch prey.",
+    "evolvesTo": [
+      99
+    ],
+    "evolvesFrom": null,
+    "image": "../pokemon/098.png",
+    "scale": 0.83
+  },
+  {
+    "id": 99,
+    "name": "Kingler",
+    "types": [
+      "Water"
+    ],
+    "height": 1.3,
+    "weight": 60.0,
+    "stats": {
+      "hp": 55,
+      "attack": 130,
+      "defense": 115,
+      "specialAttack": 50,
+      "specialDefense": 50,
+      "speed": 75
+    },
+    "description": "Its enormous claw has tremendous crushing power, but its size makes it difficult to move.",
+    "evolvesTo": null,
+    "evolvesFrom": [
+      98
+    ],
+    "image": "../pokemon/099.png",
+    "scale": 0.93
+  },
+  {
+    "id": 100,
+    "name": "Voltorb",
+    "types": [
+      "Electric"
+    ],
+    "height": 0.5,
+    "weight": 10.4,
+    "stats": {
+      "hp": 40,
+      "attack": 30,
+      "defense": 50,
+      "specialAttack": 55,
+      "specialDefense": 55,
+      "speed": 100
+    },
+    "description": "It looks almost exactly like a Poké Ball and is known to suddenly explode when disturbed.",
+    "evolvesTo": [
+      101
+    ],
+    "evolvesFrom": null,
+    "image": "../pokemon/100.png",
+    "scale": 0.85
+  },
+  {
+    "id": 101,
+    "name": "Electrode",
+    "types": [
+      "Electric"
+    ],
+    "height": 1.2,
+    "weight": 66.6,
+    "stats": {
+      "hp": 60,
+      "attack": 50,
+      "defense": 70,
+      "specialAttack": 80,
+      "specialDefense": 80,
+      "speed": 150
+    },
+    "description": "It stores large amounts of electricity inside its body and can suddenly explode after absorbing power.",
+    "evolvesTo": null,
+    "evolvesFrom": [
+      100
+    ],
+    "image": "../pokemon/101.png",
+    "scale": 0.92
+  },
+  {
+    "id": 102,
+    "name": "Exeggcute",
+    "types": [
+      "Grass",
+      "Psychic"
+    ],
+    "height": 0.4,
+    "weight": 2.5,
+    "stats": {
+      "hp": 60,
+      "attack": 40,
+      "defense": 80,
+      "specialAttack": 60,
+      "specialDefense": 45,
+      "speed": 40
+    },
+    "description": "Although it looks like a group of eggs, it is actually a collection of small living creatures working together.",
+    "evolvesTo": [
+      103
+    ],
+    "evolvesFrom": null,
+    "image": "../pokemon/102.png",
+    "scale": 0.83
+  },
+  {
+    "id": 103,
+    "name": "Exeggutor",
+    "types": [
+      "Grass",
+      "Psychic"
+    ],
+    "height": 2.0,
+    "weight": 120.0,
+    "stats": {
+      "hp": 95,
+      "attack": 95,
+      "defense": 85,
+      "specialAttack": 125,
+      "specialDefense": 75,
+      "speed": 55
+    },
+    "description": "Each of its three heads can think independently, but they usually work together as one.",
+    "evolvesTo": null,
+    "evolvesFrom": [
+      102
+    ],
+    "image": "../pokemon/103.png",
+    "scale": 0.97
+  },
+  {
+    "id": 104,
+    "name": "Cubone",
+    "types": [
+      "Ground"
+    ],
+    "height": 0.4,
+    "weight": 6.5,
+    "stats": {
+      "hp": 50,
+      "attack": 50,
+      "defense": 95,
+      "specialAttack": 40,
+      "specialDefense": 50,
+      "speed": 35
+    },
+    "description": "It wears the skull of its deceased mother and carries a bone that it uses as a weapon.",
+    "evolvesTo": [
+      105
+    ],
+    "evolvesFrom": null,
+    "image": "../pokemon/104.png",
+    "scale": 0.83
+  },
+  {
+    "id": 105,
+    "name": "Marowak",
+    "types": [
+      "Ground"
+    ],
+    "height": 1.0,
+    "weight": 45.0,
+    "stats": {
+      "hp": 60,
+      "attack": 80,
+      "defense": 110,
+      "specialAttack": 50,
+      "specialDefense": 80,
+      "speed": 45
+    },
+    "description": "It has become a powerful fighter after learning to use bones as weapons and throwing them with great accuracy.",
+    "evolvesTo": null,
+    "evolvesFrom": [
+      104
+    ],
+    "image": "../pokemon/105.png",
+    "scale": 0.9
+  },
+  {
+    "id": 106,
+    "name": "Hitmonlee",
+    "types": [
+      "Fighting"
+    ],
+    "height": 1.5,
+    "weight": 49.8,
+    "stats": {
+      "hp": 50,
+      "attack": 120,
+      "defense": 53,
+      "specialAttack": 35,
+      "specialDefense": 110,
+      "speed": 87
+    },
+    "description": "Its legs can stretch to incredible lengths, allowing it to deliver powerful kicks from a distance.",
+    "evolvesTo": null,
+    "evolvesFrom": null,
+    "image": "../pokemon/106.png",
+    "scale": 0.94
+  },
+  {
+    "id": 107,
+    "name": "Hitmonchan",
+    "types": [
+      "Fighting"
+    ],
+    "height": 1.4,
+    "weight": 50.2,
+    "stats": {
+      "hp": 50,
+      "attack": 105,
+      "defense": 79,
+      "specialAttack": 35,
+      "specialDefense": 110,
+      "speed": 76
+    },
+    "description": "Its punches are incredibly fast and powerful, allowing it to strike opponents many times in a short moment.",
+    "evolvesTo": null,
+    "evolvesFrom": null,
+    "image": "../pokemon/107.png",
+    "scale": 0.93
+  },
+  {
+    "id": 108,
+    "name": "Lickitung",
+    "types": [
+      "Normal"
+    ],
+    "height": 1.2,
+    "weight": 65.5,
+    "stats": {
+      "hp": 90,
+      "attack": 55,
+      "defense": 75,
+      "specialAttack": 60,
+      "specialDefense": 75,
+      "speed": 30
+    },
+    "description": "Its long tongue is covered in sticky saliva and can reach objects several times its own body length.",
+    "evolvesTo": null,
+    "evolvesFrom": null,
+    "image": "../pokemon/108.png",
+    "scale": 0.92
+  },
+  {
+    "id": 109,
+    "name": "Koffing",
+    "types": [
+      "Poison"
+    ],
+    "height": 0.6,
+    "weight": 1.0,
+    "stats": {
+      "hp": 40,
+      "attack": 65,
+      "defense": 95,
+      "specialAttack": 60,
+      "specialDefense": 45,
+      "speed": 35
+    },
+    "description": "It floats in the air while releasing poisonous gases from its body when threatened.",
+    "evolvesTo": [
+      110
+    ],
+    "evolvesFrom": null,
+    "image": "../pokemon/109.png",
+    "scale": 0.86
+  },
+  {
+    "id": 110,
+    "name": "Weezing",
+    "types": [
+      "Poison"
+    ],
+    "height": 1.2,
+    "weight": 9.5,
+    "stats": {
+      "hp": 65,
+      "attack": 90,
+      "defense": 120,
+      "specialAttack": 85,
+      "specialDefense": 70,
+      "speed": 60
+    },
+    "description": "Two Koffing joined together to form this Pokémon, allowing it to produce an even stronger poisonous gas.",
+    "evolvesTo": null,
+    "evolvesFrom": [
+      109
+    ],
+    "image": "../pokemon/110.png",
+    "scale": 0.92
+  },
+  {
+    "id": 111,
+    "name": "Rhyhorn",
+    "types": [
+      "Ground",
+      "Rock"
+    ],
+    "height": 1.0,
+    "weight": 115.0,
+    "stats": {
+      "hp": 80,
+      "attack": 85,
+      "defense": 95,
+      "specialAttack": 30,
+      "specialDefense": 30,
+      "speed": 25
+    },
+    "description": "Its powerful body can charge through almost anything, but it has difficulty changing direction once it starts running.",
+    "evolvesTo": [
+      112
+    ],
+    "evolvesFrom": null,
+    "image": "../pokemon/111.png",
+    "scale": 0.9
+  },
+  {
+    "id": 112,
+    "name": "Rhydon",
+    "types": [
+      "Ground",
+      "Rock"
+    ],
+    "height": 1.9,
+    "weight": 120.0,
+    "stats": {
+      "hp": 105,
+      "attack": 130,
+      "defense": 120,
+      "specialAttack": 45,
+      "specialDefense": 45,
+      "speed": 40
+    },
+    "description": "Its thick hide protects it from extreme heat, and its powerful horn can destroy solid rock.",
+    "evolvesTo": null,
+    "evolvesFrom": [
+      111
+    ],
+    "image": "../pokemon/112.png",
+    "scale": 0.97
+  },
+  {
+    "id": 113,
+    "name": "Chansey",
+    "types": [
+      "Normal"
+    ],
+    "height": 1.1,
+    "weight": 34.6,
+    "stats": {
+      "hp": 250,
+      "attack": 5,
+      "defense": 5,
+      "specialAttack": 35,
+      "specialDefense": 105,
+      "speed": 50
+    },
+    "description": "It carries a nutritious egg that is highly valued because of its ability to restore energy.",
+    "evolvesTo": null,
+    "evolvesFrom": null,
+    "image": "../pokemon/113.png",
+    "scale": 0.91
+  },
+  {
+    "id": 114,
+    "name": "Tangela",
+    "types": [
+      "Grass"
+    ],
+    "height": 1.0,
+    "weight": 35.0,
+    "stats": {
+      "hp": 65,
+      "attack": 55,
+      "defense": 115,
+      "specialAttack": 100,
+      "specialDefense": 40,
+      "speed": 60
+    },
+    "description": "Its entire body is covered by thick blue vines that constantly grow and hide its appearance.",
+    "evolvesTo": null,
+    "evolvesFrom": null,
+    "image": "../pokemon/114.png",
+    "scale": 0.9
+  },
+  {
+    "id": 115,
+    "name": "Kangaskhan",
+    "types": [
+      "Normal"
+    ],
+    "height": 2.2,
+    "weight": 80.0,
+    "stats": {
+      "hp": 105,
+      "attack": 95,
+      "defense": 80,
+      "specialAttack": 40,
+      "specialDefense": 80,
+      "speed": 90
+    },
+    "description": "It raises its young inside a pouch and becomes extremely protective when its child is threatened.",
+    "evolvesTo": null,
+    "evolvesFrom": null,
+    "image": "../pokemon/115.png",
+    "scale": 0.99
+  },
+  {
+    "id": 116,
+    "name": "Horsea",
+    "types": [
+      "Water"
+    ],
+    "height": 0.4,
+    "weight": 8.0,
+    "stats": {
+      "hp": 30,
+      "attack": 40,
+      "defense": 70,
+      "specialAttack": 70,
+      "specialDefense": 25,
+      "speed": 60
+    },
+    "description": "It lives among seaweed and can shoot powerful jets of water to defend itself.",
+    "evolvesTo": [
+      117
+    ],
+    "evolvesFrom": null,
+    "image": "../pokemon/116.png",
+    "scale": 0.83
+  },
+  {
+    "id": 117,
+    "name": "Seadra",
+    "types": [
+      "Water"
+    ],
+    "height": 1.2,
+    "weight": 25.0,
+    "stats": {
+      "hp": 55,
+      "attack": 65,
+      "defense": 95,
+      "specialAttack": 95,
+      "specialDefense": 45,
+      "speed": 85
+    },
+    "description": "Its sharp spikes and poisonous body make it dangerous to approach, even though it looks calm.",
+    "evolvesTo": null,
+    "evolvesFrom": [
+      116
+    ],
+    "image": "../pokemon/117.png",
+    "scale": 0.92
+  },
+  {
+    "id": 118,
+    "name": "Goldeen",
+    "types": [
+      "Water"
+    ],
+    "height": 0.6,
+    "weight": 15.0,
+    "stats": {
+      "hp": 45,
+      "attack": 67,
+      "defense": 60,
+      "specialAttack": 35,
+      "specialDefense": 50,
+      "speed": 63
+    },
+    "description": "Its elegant fins allow it to swim gracefully, but it can become aggressive when defending its territory.",
+    "evolvesTo": [
+      119
+    ],
+    "evolvesFrom": null,
+    "image": "../pokemon/118.png",
+    "scale": 0.86
+  },
+  {
+    "id": 119,
+    "name": "Seaking",
+    "types": [
+      "Water"
+    ],
+    "height": 1.3,
+    "weight": 39.0,
+    "stats": {
+      "hp": 80,
+      "attack": 92,
+      "defense": 65,
+      "specialAttack": 65,
+      "specialDefense": 80,
+      "speed": 68
+    },
+    "description": "It uses its powerful horn to dig nests and protect its territory during the breeding season.",
+    "evolvesTo": null,
+    "evolvesFrom": [
+      118
+    ],
+    "image": "../pokemon/119.png",
+    "scale": 0.93
+  },
+  {
+    "id": 120,
+    "name": "Staryu",
+    "types": [
+      "Water"
+    ],
+    "height": 0.8,
+    "weight": 34.5,
+    "stats": {
+      "hp": 30,
+      "attack": 45,
+      "defense": 55,
+      "specialAttack": 70,
+      "specialDefense": 55,
+      "speed": 85
+    },
+    "description": "Its central gem glows brightly at night, and it can regenerate lost parts of its body.",
+    "evolvesTo": [
+      121
+    ],
+    "evolvesFrom": null,
+    "image": "../pokemon/120.png",
+    "scale": 0.88
+  },
+  {
+    "id": 121,
+    "name": "Starmie",
+    "types": [
+      "Water",
+      "Psychic"
+    ],
+    "height": 1.1,
+    "weight": 80.0,
+    "stats": {
+      "hp": 60,
+      "attack": 75,
+      "defense": 85,
+      "specialAttack": 100,
+      "specialDefense": 85,
+      "speed": 115
+    },
+    "description": "Its mysterious core glows in many colors, especially when Starmie is swimming through the ocean at night.",
+    "evolvesTo": null,
+    "evolvesFrom": [
+      120
+    ],
+    "image": "../pokemon/121.png",
+    "scale": 0.91
+  },
+  {
+    "id": 122,
+    "name": "Mr. Mime",
+    "types": [
+      "Psychic",
+      "Fairy"
+    ],
+    "height": 1.3,
+    "weight": 54.5,
+    "stats": {
+      "hp": 40,
+      "attack": 45,
+      "defense": 65,
+      "specialAttack": 100,
+      "specialDefense": 120,
+      "speed": 90
+    },
+    "description": "It is skilled at creating invisible walls with its hands and uses mime-like movements to confuse others.",
+    "evolvesTo": null,
+    "evolvesFrom": null,
+    "image": "../pokemon/122.png",
+    "scale": 0.93
+  },
+  {
+    "id": 123,
+    "name": "Scyther",
+    "types": [
+      "Bug",
+      "Flying"
+    ],
+    "height": 1.5,
+    "weight": 56.0,
+    "stats": {
+      "hp": 70,
+      "attack": 110,
+      "defense": 80,
+      "specialAttack": 55,
+      "specialDefense": 80,
+      "speed": 105
+    },
+    "description": "Its sharp scythes allow it to cut through thick grass with incredible speed.",
+    "evolvesTo": null,
+    "evolvesFrom": null,
+    "image": "../pokemon/123.png",
+    "scale": 0.94
+  },
+  {
+    "id": 124,
+    "name": "Jynx",
+    "types": [
+      "Ice",
+      "Psychic"
+    ],
+    "height": 1.4,
+    "weight": 40.6,
+    "stats": {
+      "hp": 65,
+      "attack": 50,
+      "defense": 35,
+      "specialAttack": 115,
+      "specialDefense": 95,
+      "speed": 95
+    },
+    "description": "Its movements resemble dancing, and it communicates through a language that sounds like human speech.",
+    "evolvesTo": null,
+    "evolvesFrom": null,
+    "image": "../pokemon/124.png",
+    "scale": 0.93
+  },
+  {
+    "id": 125,
+    "name": "Electabuzz",
+    "types": [
+      "Electric"
+    ],
+    "height": 1.1,
+    "weight": 30.0,
+    "stats": {
+      "hp": 65,
+      "attack": 83,
+      "defense": 57,
+      "specialAttack": 95,
+      "specialDefense": 85,
+      "speed": 105
+    },
+    "description": "It gathers around power plants and absorbs electricity while generating strong electrical sparks.",
+    "evolvesTo": null,
+    "evolvesFrom": null,
+    "image": "../pokemon/125.png",
+    "scale": 0.91
+  },
+  {
+    "id": 126,
+    "name": "Magmar",
+    "types": [
+      "Fire"
+    ],
+    "height": 1.3,
+    "weight": 44.5,
+    "stats": {
+      "hp": 65,
+      "attack": 95,
+      "defense": 57,
+      "specialAttack": 100,
+      "specialDefense": 85,
+      "speed": 93
+    },
+    "description": "Its body is constantly surrounded by flames, and it prefers to live near volcanic areas.",
+    "evolvesTo": null,
+    "evolvesFrom": null,
+    "image": "../pokemon/126.png",
+    "scale": 0.93
+  },
+  {
+    "id": 127,
+    "name": "Pinsir",
+    "types": [
+      "Bug"
+    ],
+    "height": 1.5,
+    "weight": 55.0,
+    "stats": {
+      "hp": 65,
+      "attack": 125,
+      "defense": 100,
+      "specialAttack": 55,
+      "specialDefense": 70,
+      "speed": 85
+    },
+    "description": "It uses its powerful pincers to grab opponents and can lift objects much heavier than itself.",
+    "evolvesTo": null,
+    "evolvesFrom": null,
+    "image": "../pokemon/127.png",
+    "scale": 0.94
+  },
+  {
+    "id": 128,
+    "name": "Tauros",
+    "types": [
+      "Normal"
+    ],
+    "height": 1.4,
+    "weight": 88.4,
+    "stats": {
+      "hp": 75,
+      "attack": 100,
+      "defense": 95,
+      "specialAttack": 40,
+      "specialDefense": 70,
+      "speed": 110
+    },
+    "description": "It becomes enraged when it starts charging and uses its three tails to whip its own body into a frenzy.",
+    "evolvesTo": null,
+    "evolvesFrom": null,
+    "image": "../pokemon/128.png",
+    "scale": 0.93
+  },
+  {
+    "id": 129,
+    "name": "Magikarp",
+    "types": [
+      "Water"
+    ],
+    "height": 0.9,
+    "weight": 10.0,
+    "stats": {
+      "hp": 20,
+      "attack": 10,
+      "defense": 55,
+      "specialAttack": 15,
+      "specialDefense": 20,
+      "speed": 80
+    },
+    "description": "It is a weak swimmer that can barely move against strong currents, but it can eventually evolve into a powerful Pokémon.",
+    "evolvesTo": [
+      130
+    ],
+    "evolvesFrom": null,
+    "image": "../pokemon/129.png",
+    "scale": 0.89
+  },
+  {
+    "id": 130,
+    "name": "Gyarados",
+    "types": [
+      "Water",
+      "Flying"
+    ],
+    "height": 6.5,
+    "weight": 235.0,
+    "stats": {
+      "hp": 95,
+      "attack": 125,
+      "defense": 79,
+      "specialAttack": 60,
+      "specialDefense": 100,
+      "speed": 81
+    },
+    "description": "Once it becomes enraged, it can destroy entire areas and rarely stops until everything around it is destroyed.",
+    "evolvesTo": null,
+    "evolvesFrom": [
+      129
+    ],
+    "image": "../pokemon/130.png",
+    "scale": 1.1
+  },
+  {
+    "id": 131,
+    "name": "Lapras",
+    "types": [
+      "Water",
+      "Ice"
+    ],
+    "height": 2.5,
+    "weight": 220.0,
+    "stats": {
+      "hp": 130,
+      "attack": 85,
+      "defense": 80,
+      "specialAttack": 85,
+      "specialDefense": 95,
+      "speed": 60
+    },
+    "description": "It is gentle and intelligent, often carrying people across the ocean on its back.",
+    "evolvesTo": null,
+    "evolvesFrom": null,
+    "image": "../pokemon/131.png",
+    "scale": 1.0
+  },
+  {
+    "id": 132,
+    "name": "Ditto",
+    "types": [
+      "Normal"
+    ],
+    "height": 0.3,
+    "weight": 4.0,
+    "stats": {
+      "hp": 48,
+      "attack": 48,
+      "defense": 48,
+      "specialAttack": 48,
+      "specialDefense": 48,
+      "speed": 48
+    },
+    "description": "It can transform into almost any Pokémon by copying its opponent's appearance and abilities.",
+    "evolvesTo": null,
+    "evolvesFrom": null,
+    "image": "../pokemon/132.png",
+    "scale": 0.82
+  },
+  {
+    "id": 133,
+    "name": "Eevee",
+    "types": [
+      "Normal"
+    ],
+    "height": 0.3,
+    "weight": 6.5,
+    "stats": {
+      "hp": 55,
+      "attack": 55,
+      "defense": 50,
+      "specialAttack": 45,
+      "specialDefense": 65,
+      "speed": 55
+    },
+    "description": "Its unstable genetic structure allows it to evolve into several different forms depending on its environment.",
+    "evolvesTo": [
+      134,
+      135,
+      136
+    ],
+    "evolvesFrom": null,
+    "image": "../pokemon/133.png",
+    "scale": 0.82
+  },
+  {
+    "id": 134,
+    "name": "Vaporeon",
+    "types": [
+      "Water"
+    ],
+    "height": 1.0,
+    "weight": 29.0,
+    "stats": {
+      "hp": 130,
+      "attack": 65,
+      "defense": 60,
+      "specialAttack": 110,
+      "specialDefense": 95,
+      "speed": 65
+    },
+    "description": "Its body has adapted to life in water, allowing it to become almost invisible when swimming.",
+    "evolvesTo": null,
+    "evolvesFrom": [
+      133
+    ],
+    "image": "../pokemon/134.png",
+    "scale": 0.9
+  },
+  {
+    "id": 135,
+    "name": "Jolteon",
+    "types": [
+      "Electric"
+    ],
+    "height": 0.8,
+    "weight": 24.5,
+    "stats": {
+      "hp": 65,
+      "attack": 65,
+      "defense": 60,
+      "specialAttack": 110,
+      "specialDefense": 95,
+      "speed": 130
+    },
+    "description": "Its fur can generate powerful static electricity, which it releases as sharp electric attacks.",
+    "evolvesTo": null,
+    "evolvesFrom": [
+      133
+    ],
+    "image": "../pokemon/135.png",
+    "scale": 0.88
+  },
+  {
+    "id": 136,
+    "name": "Flareon",
+    "types": [
+      "Fire"
+    ],
+    "height": 0.9,
+    "weight": 25.0,
+    "stats": {
+      "hp": 65,
+      "attack": 130,
+      "defense": 60,
+      "specialAttack": 95,
+      "specialDefense": 110,
+      "speed": 65
+    },
+    "description": "It stores inhaled air inside a flame sac and can release fire that reaches extremely high temperatures.",
+    "evolvesTo": null,
+    "evolvesFrom": [
+      133
+    ],
+    "image": "../pokemon/136.png",
+    "scale": 0.89
+  },
+  {
+    "id": 137,
+    "name": "Porygon",
+    "types": [
+      "Normal"
+    ],
+    "height": 0.8,
+    "weight": 36.5,
+    "stats": {
+      "hp": 65,
+      "attack": 60,
+      "defense": 70,
+      "specialAttack": 85,
+      "specialDefense": 75,
+      "speed": 40
+    },
+    "description": "It is a digital Pokémon created by scientists and is capable of moving through cyberspace.",
+    "evolvesTo": null,
+    "evolvesFrom": null,
+    "image": "../pokemon/137.png",
+    "scale": 0.88
+  },
+  {
+    "id": 138,
+    "name": "Omanyte",
+    "types": [
+      "Rock",
+      "Water"
+    ],
+    "height": 0.4,
+    "weight": 7.5,
+    "stats": {
+      "hp": 35,
+      "attack": 40,
+      "defense": 100,
+      "specialAttack": 90,
+      "specialDefense": 55,
+      "speed": 35
+    },
+    "description": "This ancient Pokémon was restored from a fossil and uses its tentacles to move through the water.",
+    "evolvesTo": [
+      139
+    ],
+    "evolvesFrom": null,
+    "image": "../pokemon/138.png",
+    "scale": 0.83
+  },
+  {
+    "id": 139,
+    "name": "Omastar",
+    "types": [
+      "Rock",
+      "Water"
+    ],
+    "height": 1.0,
+    "weight": 35.0,
+    "stats": {
+      "hp": 70,
+      "attack": 60,
+      "defense": 125,
+      "specialAttack": 115,
+      "specialDefense": 70,
+      "speed": 55
+    },
+    "description": "Its powerful tentacles can hold onto prey while its sharp teeth tear through their shells.",
+    "evolvesTo": null,
+    "evolvesFrom": [
+      138
+    ],
+    "image": "../pokemon/139.png",
+    "scale": 0.9
+  },
+  {
+    "id": 140,
+    "name": "Kabuto",
+    "types": [
+      "Rock",
+      "Water"
+    ],
+    "height": 0.5,
+    "weight": 11.5,
+    "stats": {
+      "hp": 30,
+      "attack": 80,
+      "defense": 90,
+      "specialAttack": 55,
+      "specialDefense": 45,
+      "speed": 55
+    },
+    "description": "It is an ancient Pokémon restored from a fossil and was once believed to live in shallow seas.",
+    "evolvesTo": [
+      141
+    ],
+    "evolvesFrom": null,
+    "image": "../pokemon/140.png",
+    "scale": 0.85
+  },
+  {
+    "id": 141,
+    "name": "Kabutops",
+    "types": [
+      "Rock",
+      "Water"
+    ],
+    "height": 1.3,
+    "weight": 40.5,
+    "stats": {
+      "hp": 60,
+      "attack": 115,
+      "defense": 105,
+      "specialAttack": 65,
+      "specialDefense": 70,
+      "speed": 80
+    },
+    "description": "Its sharp blades were used to cut through prey, and its streamlined body made it an excellent swimmer.",
+    "evolvesTo": null,
+    "evolvesFrom": [
+      140
+    ],
+    "image": "../pokemon/141.png",
+    "scale": 0.93
+  },
+  {
+    "id": 142,
+    "name": "Aerodactyl",
+    "types": [
+      "Rock",
+      "Flying"
+    ],
+    "height": 1.8,
+    "weight": 59.0,
+    "stats": {
+      "hp": 80,
+      "attack": 105,
+      "defense": 65,
+      "specialAttack": 60,
+      "specialDefense": 75,
+      "speed": 130
+    },
+    "description": "This ancient Pokémon had sharp teeth and powerful wings, allowing it to dominate the skies long ago.",
+    "evolvesTo": null,
+    "evolvesFrom": null,
+    "image": "../pokemon/142.png",
+    "scale": 0.96
+  },
+  {
+    "id": 143,
+    "name": "Snorlax",
+    "types": [
+      "Normal"
+    ],
+    "height": 2.1,
+    "weight": 460.0,
+    "stats": {
+      "hp": 160,
+      "attack": 110,
+      "defense": 65,
+      "specialAttack": 65,
+      "specialDefense": 110,
+      "speed": 30
+    },
+    "description": "It spends most of its time sleeping and wakes only when it becomes hungry enough to search for food.",
+    "evolvesTo": null,
+    "evolvesFrom": null,
+    "image": "../pokemon/143.png",
+    "scale": 0.98
+  },
+  {
+    "id": 144,
+    "name": "Articuno",
+    "types": [
+      "Ice",
+      "Flying"
+    ],
+    "height": 1.7,
+    "weight": 55.4,
+    "stats": {
+      "hp": 90,
+      "attack": 85,
+      "defense": 100,
+      "specialAttack": 95,
+      "specialDefense": 125,
+      "speed": 85
+    },
+    "description": "It is said to appear in snowy mountains and can freeze moisture in the air to create ice.",
+    "evolvesTo": null,
+    "evolvesFrom": null,
+    "image": "../pokemon/144.png",
+    "scale": 0.95
+  },
+  {
+    "id": 145,
+    "name": "Zapdos",
+    "types": [
+      "Electric",
+      "Flying"
+    ],
+    "height": 1.6,
+    "weight": 52.6,
+    "stats": {
+      "hp": 90,
+      "attack": 90,
+      "defense": 85,
+      "specialAttack": 125,
+      "specialDefense": 90,
+      "speed": 100
+    },
+    "description": "When it appears during a thunderstorm, it can generate powerful lightning and electricity with its wings.",
+    "evolvesTo": null,
+    "evolvesFrom": null,
+    "image": "../pokemon/145.png",
+    "scale": 0.95
+  },
+  {
+    "id": 146,
+    "name": "Moltres",
+    "types": [
+      "Fire",
+      "Flying"
+    ],
+    "height": 2.0,
+    "weight": 60.0,
+    "stats": {
+      "hp": 90,
+      "attack": 100,
+      "defense": 90,
+      "specialAttack": 125,
+      "specialDefense": 85,
+      "speed": 90
+    },
+    "description": "Its entire body is covered in brilliant flames, and legends say its appearance signals the arrival of spring.",
+    "evolvesTo": null,
+    "evolvesFrom": null,
+    "image": "../pokemon/146.png",
+    "scale": 0.97
+  },
+  {
+    "id": 147,
+    "name": "Dratini",
+    "types": [
+      "Dragon"
+    ],
+    "height": 1.8,
+    "weight": 3.3,
+    "stats": {
+      "hp": 41,
+      "attack": 64,
+      "defense": 45,
+      "specialAttack": 50,
+      "specialDefense": 50,
+      "speed": 50
+    },
+    "description": "It was once thought to be a mythical Pokémon because it was rarely seen, but it grows steadily by shedding its skin.",
+    "evolvesTo": [
+      148
+    ],
+    "evolvesFrom": null,
+    "image": "../pokemon/147.png",
+    "scale": 0.96
+  },
+  {
+    "id": 148,
+    "name": "Dragonair",
+    "types": [
+      "Dragon"
+    ],
+    "height": 4.0,
+    "weight": 16.5,
+    "stats": {
+      "hp": 61,
+      "attack": 84,
+      "defense": 65,
+      "specialAttack": 70,
+      "specialDefense": 70,
+      "speed": 70
+    },
+    "description": "It has a graceful body and can manipulate the weather, making rain or storms appear around it.",
+    "evolvesTo": [
+      149
+    ],
+    "evolvesFrom": [
+      147
+    ],
+    "image": "../pokemon/148.png",
+    "scale": 1.08
+  },
+  {
+    "id": 149,
+    "name": "Dragonite",
+    "types": [
+      "Dragon",
+      "Flying"
+    ],
+    "height": 2.2,
+    "weight": 210.0,
+    "stats": {
+      "hp": 91,
+      "attack": 134,
+      "defense": 95,
+      "specialAttack": 100,
+      "specialDefense": 100,
+      "speed": 80
+    },
+    "description": "Despite its enormous size and power, it is known to be gentle and capable of rescuing people lost at sea.",
+    "evolvesTo": null,
+    "evolvesFrom": [
+      148
+    ],
+    "image": "../pokemon/149.png",
+    "scale": 0.99
+  },
+  {
+    "id": 150,
+    "name": "Mewtwo",
+    "types": [
+      "Psychic"
+    ],
+    "height": 2.0,
+    "weight": 122.0,
+    "stats": {
+      "hp": 106,
+      "attack": 110,
+      "defense": 90,
+      "specialAttack": 154,
+      "specialDefense": 90,
+      "speed": 130
+    },
+    "description": "A Pokémon created through genetic manipulation, it possesses incredible psychic power and intelligence.",
+    "evolvesTo": null,
+    "evolvesFrom": null,
+    "image": "../pokemon/150.png",
+    "scale": 0.97
+  },
+  {
+    "id": 151,
+    "name": "Mew",
+    "types": [
+      "Psychic"
+    ],
+    "height": 0.4,
+    "weight": 4.0,
+    "stats": {
+      "hp": 100,
+      "attack": 100,
+      "defense": 100,
+      "specialAttack": 100,
+      "specialDefense": 100,
+      "speed": 100
+    },
+    "description": "Mew is said to possess the genetic material of every Pokémon, allowing it to learn almost any move.",
+    "evolvesTo": null,
+    "evolvesFrom": null,
+    "image": "../pokemon/151.png",
+    "scale": 0.83
+  }
+]
