@@ -116,7 +116,7 @@ export const TopBar = () => {
 
 
 
-            <button onClick={() => { setPopup(value => ({ ...value, help: false })) }} className="text-gray-700 ml-auto mt-5">Omkie</button>
+            <button onClick={() => { setPopup(value => ({ ...value, help: false })) }} className="text-gray-700 ml-auto mt-5 w-10 h-4">k</button>
           </div>
         </div>
       )}

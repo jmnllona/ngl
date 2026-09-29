@@ -158,7 +158,7 @@ export const Box = () => {
 
 
   return (
-    <div>
+    <div className="animate-spin">
       <div className=" w-full  rounded-3xl overflow-y-hidden relative">
         {/* header */}
         <div id="header" className=" bg-white flex items-center font-bold p-3 text-sm text-left">
